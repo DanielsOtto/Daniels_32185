@@ -1,8 +1,0 @@
-[
-	{
-		"id": 1,
-		"title": "botas",
-		"price": 100,
-		"thumbnail": "www.s"
-	}
-]

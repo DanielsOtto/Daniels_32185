@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 
 class Container {
   #array;
@@ -23,96 +23,80 @@ class Container {
         obj.id = this.#array[this.#array.length - 1].id + 1;
         this.#array.push(obj);
       }
-      await fs.promises.writeFile(this.#file, JSON.stringify(this.#array, null, '\t'));
+      await fs.writeFile(this.#file, JSON.stringify(this.#array, null, '\t'));
     } catch (error) {
-      console.log(error);
+      throw new Error(`Error en el método save.`);
     }
-    return obj.id;  
-  } // hasta aca anda bien
+    return obj.id;
+  }// revisado
 
   async getById(id) {
-
     try {
-      const result = await fs.promises.readFile(this.#file, 'utf-8');
-      const array = JSON.parse(result);
-      if (array.length > 0) {
-        if(!array.find(element => element.id === id)){
-          console.log('No hay objetos con ese ID');
-        }else{
-          const obj = array.find(element => element.id === id);
-          console.log('El objeto encontrado es: ')
-          console.log(obj);
-        }
+      const array = JSON.parse( await fs.readFile(this.#file, 'utf-8'));
+      const obj = array.find(element => element.id === id);
+      if (!obj) {
+        return null;
+      } else {
+        return obj;
       }
     } catch (error) {
-      console.error(error);
+      throw new Error(`elemento con id ${id} no encontrado`);
     }
-  }
+  } //revisado
 
   async getAll() {
     try {
-      const result = await fs.promises.readFile(this.#file, 'utf-8');
-      const array = JSON.parse(result);
-      console.log('El contenido del archivo es:')
-      console.log(array);
+      return JSON.parse(await fs.readFile(this.#file, 'utf-8'));
     } catch (error) {
-      console.log(error);
+      throw new Error(`Error en el método getAll`);
     }
-  }
+  } // revisado
 
-  async deleteById(id){
+  async deleteById(id) {
     try {
-      const result = await fs.promises.readFile(this.#file, 'utf-8');
-      const array = JSON.parse(result);
-      if(array.find(element => element.id === id)){
-        const arr = array.filter(element => element.id !== id);
-        console.log('NUEVO ARREGLO: ')
-        console.log(arr)
-        await fs.promises.writeFile(this.#file, JSON.stringify(arr));
-      } else{
-        console.log('NO se encuentra ningun objeto con ese ID.');
-      }     
+      const array = JSON.parse(await fs.readFile(this.#file, 'utf-8'));
+      await fs.writeFile(this.#file, JSON.stringify(array.filter(element => element.id !== id)));
     } catch (error) {
-      console.error(error); 
+      throw new Error(`Error en el método deleteById`);
     }
-  }
+  }// revisado
 
-  async deleteAll(){
+  async deleteAll() {
     try {
-      console.log("BORRANDO todo el contenido del archivo");
-      await fs.promises.writeFile(this.#file, []);
+      await fs.writeFile(this.#file, "[]");
     } catch (error) {
-      console.log(error);
+      throw new Error(`Error en el método deleteAll`);
     }
-  }
-
+  }// revisado
 }
 
-const element = new Container('./productos.txt');
-// // carga de elementos en el archivo
+async function test() {
 
-element.save('caja azul', 100, 'www.a')
-  .then((id) => {
-    element.save('caja verde', 200, 'www.v')
-    console.log(id)  // bien
-    element.getById(1)
-    element.getAll();
-    element.deleteById(1);
-    element.getAll();
-  })
-  .then(()=>{
-    element.deleteAll();
-    element.getAll();
-  })
-  .catch( err => {
-    console.error(err);
-  });
-// element.save('caja verde', 200, 'www.v')
-//   .then((id) => {
-//     console.log(id)
-//   })
-// element.save('caja roja', 300, 'www.r')
-  // .then((id) => {
-  //   console.log(id)
-  // })
+  const element = new Container('./productos.txt'); // Creando archivos
+  try {
+    const idGreen = await element.save('caja verde', 200, 'www.v');
+    await element.save('caja roja', 300, 'www.r');
+    await element.save('caja negra', 1200, 'www.n');
+    const idBlue = await element.save('caja azul', 100, 'www.a');
 
+    // mostrando todos los elementos
+    console.log(await element.getAll());
+
+    // mostrando un elemento por ID
+    const elem = await element.getById(idBlue);
+    console.log(elem)
+
+    // borrando un elemento por ID
+    await element.deleteById(idGreen);
+    console.log(await element.getAll());
+
+    // eliminando todos los elementos
+    await element.deleteAll();
+    console.log(await element.getAll());
+
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+test()

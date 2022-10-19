@@ -1,1 +1,1 @@
-[{"title":"caja verde","price":200,"thumbnail":"www.v","id":2}]
+[]
