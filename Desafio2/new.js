@@ -8,27 +8,20 @@ class Container {
     this.#file = road;
   }
 
-  async save(title, price, url) {
+  async save(id, title, price, url) {
     const obj = {
+      id: id,
       title: title,
       price: price,
       thumbnail: url
     };
-
     try {
-      if (this.#array.length === 0) {
-        obj.id = 1;
-        this.#array.push(obj);
-      } else {
-        obj.id = this.#array[this.#array.length - 1].id + 1;
-        this.#array.push(obj);
-      }
+      this.#array.push(obj);
       await fs.writeFile(this.#file, JSON.stringify(this.#array, null, '\t'));
     } catch (error) {
       throw new Error(`Error en el método save.`);
     }
-    return obj.id;
-  }// revisado
+  }
 
   async getById(id) {
     try {
@@ -36,13 +29,12 @@ class Container {
       const obj = array.find(element => element.id === id);
       if (!obj) {
         return null;
-      } else {
-        return obj;
       }
+        return obj;
     } catch (error) {
       throw new Error(`elemento con id ${id} no encontrado`);
     }
-  } //revisado
+  } 
 
   async getAll() {
     try {
@@ -50,7 +42,7 @@ class Container {
     } catch (error) {
       throw new Error(`Error en el método getAll`);
     }
-  } // revisado
+  } 
 
   async deleteById(id) {
     try {
@@ -59,35 +51,35 @@ class Container {
     } catch (error) {
       throw new Error(`Error en el método deleteById`);
     }
-  }// revisado
+  }
 
   async deleteAll() {
     try {
-      await fs.writeFile(this.#file, "[]");
+      await fs.writeFile(this.#file, '[]');
     } catch (error) {
       throw new Error(`Error en el método deleteAll`);
     }
-  }// revisado
+  }
 }
 
 async function test() {
-
+  await fs.writeFile('./productos.txt', '[]');
   const element = new Container('./productos.txt'); // Creando archivos
   try {
-    const idGreen = await element.save('caja verde', 200, 'www.v');
-    await element.save('caja roja', 300, 'www.r');
-    await element.save('caja negra', 1200, 'www.n');
-    const idBlue = await element.save('caja azul', 100, 'www.a');
+    await element.save(1,'caja verde', 200, 'www.v');
+    await element.save(2,'caja roja', 300, 'www.r');
+    await element.save(3,'caja negra', 1200, 'www.n');
+    await element.save(4,'caja azul', 100, 'www.a');
 
     // mostrando todos los elementos
     console.log(await element.getAll());
 
     // mostrando un elemento por ID
-    const elem = await element.getById(idBlue);
-    console.log(elem)
+    const elem = await element.getById(2);
+    console.log(elem);
 
     // borrando un elemento por ID
-    await element.deleteById(idGreen);
+    await element.deleteById(3);
     console.log(await element.getAll());
 
     // eliminando todos los elementos
@@ -95,8 +87,8 @@ async function test() {
     console.log(await element.getAll());
 
   } catch (error) {
-    console.log(error)
+    throw new Error(`Error al llamar a los métodos en la función test`);
   }
 }
 
-test()
+test();
