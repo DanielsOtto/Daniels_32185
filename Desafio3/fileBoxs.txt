@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "red box",
+		"price": 250,
+		"thumbnail": "www.rb.com"
+	},
+	{
+		"id": 2,
+		"title": "blue box",
+		"price": 290,
+		"thumbnail": "www.bb.com"
+	},
+	{
+		"id": 3,
+		"title": "green box",
+		"price": 390,
+		"thumbnail": "www.gb.com"
+	},
+	{
+		"id": 4,
+		"title": "yellow box",
+		"price": 100,
+		"thumbnail": "www.yb.com"
+	}
+]

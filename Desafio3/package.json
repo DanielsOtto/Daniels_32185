@@ -1,0 +1,12 @@
+{
+  "name": "desafio3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "author": "Otto Daniels",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
