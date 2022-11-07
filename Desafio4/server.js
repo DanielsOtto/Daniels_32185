@@ -11,8 +11,10 @@ app.use(express.json()); // agrega un proceso adicional a express, que cada vez 
 
 //------ se pueden usar los dos juntos ------ para interpretar tanto un JSON como un FORMULARIO
 //para interpretar campos de un formulario
-app.use(express.urlencoded({ extended: true })) // con este middleware podemos enviar un formulario.
+app.use(express.urlencoded({ extended: true })); // con este middleware podemos enviar un formulario.
 //en el thunder los datos se cargan en la opcion  FORM ENCODED  del body
+
+app.use(express.static('public'));
 
 //rutas
 app.use('/api/products', routerApi);
@@ -24,4 +26,4 @@ app.listen(app.get('port'), (req, res) => {
   } catch (error) {
     throw new Error(error);
   }
-})
+});

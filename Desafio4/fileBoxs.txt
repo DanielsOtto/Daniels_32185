@@ -1,1 +1,1 @@
-[{"title":"teg","price":"155","thumbnail":"www.theboxULTRAMATE.com","id":"d5e17ac1-1717-45be-b230-a44ebb0cf362","thumbnaill":"www.estrategia.com"},{"id":"0f378878-915d-4cc2-83b0-bd0763ca782c","title":"argentina","price":"-2000","thumbnaill":"www.enquiebra.com"}]
+[{"nombre":"","precio":"","url":"","id":"6d6f6d99-dc92-4828-8ccc-f8598932ef5d"}]

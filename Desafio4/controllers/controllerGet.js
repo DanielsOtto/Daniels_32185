@@ -30,6 +30,7 @@ async function post({ body }, res) {
     await element.save(object);
     res.status(201);
     res.json(object);
+    // res.render('/api/products', object)
   } catch (error) {
     throw new Error('Se ha producido un error en controllerPost');
   }
