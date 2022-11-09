@@ -58,6 +58,6 @@ class Container {
   }
 }
 
-fs.writeFile('./fileBoxs.txt', []);
+fs.writeFile('./fileBoxs.txt', "[]");
 const element = new Container('./fileBoxs.txt');
 module.exports = element;
