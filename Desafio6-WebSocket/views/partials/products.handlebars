@@ -1,0 +1,26 @@
+<h2 class="h1">Lista de productos</h2>
+
+<div>
+    {{#if hayProductos}}
+    <table class="table table-striped">
+        <tr>
+            <th class="table-info text-center">Nombre del producto</th>
+            <th class="table-info text-center">Precio del producto</th>
+            <th class="table-info text-center">Imágen del producto</th>
+            <th class="table-info text-center">ID del producto</th>
+        </tr>
+        {{#each prods}}
+        <tr>
+            <td class="text-center">{{this.name}}</td>
+            <td class="text-center">{{this.price}}</td>
+            <td> <img class="img-thumbnail rounded mx-auto d-block" src={{this.url}} alt={{this.name}}> </td>
+            <td class="text-center">{{this.id}}</td>
+        </tr>
+        {{/each}}
+    </table>
+    {{else}}
+    <p class="text-center text-uppercase">No hay productos</p>
+    {{/if}}
+</div>
+
+<button class="btn btn-primary text-uppercase" onclick="location.href='./'">Regresar al form</button>
