@@ -1,5 +1,14 @@
 const element = require('../Container');
 const { randomUUID } = require('crypto');
+// //-- 
+// const express = require('express');
+// const app = express();
+// const { Server: HttpServer } = require('http');
+// const { Server: IOServer } = require('socket.io');
+// const httpServer = new HttpServer(app);
+// const io = new IOServer(httpServer);
+// //-- 
+
 
 async function form(req, res) {
   try {
@@ -24,7 +33,9 @@ async function post({ body }, res) {
     object.id = randomUUID();
     await element.save(object);
     res.status(201);
-    res.redirect('/');
+    res.redirect('/'); // devuelve un html, necesito JSON o res.send
+    // res.json(object);
+    // io.sockets.emit('updateProducts', await element.getAll()); // FORMA A
   } catch (error) {
     throw new Error('Se ha producido un error en el controlador POST');
   }

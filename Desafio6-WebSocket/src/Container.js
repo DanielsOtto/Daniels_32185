@@ -14,8 +14,10 @@ class Container {
 
   async save(obj) {
     try {
-      this.#arrayProds.push(obj);
-      await fs.writeFile(this.#fileProds, JSON.stringify(this.#arrayProds));
+      if (obj.name !== "") {
+        this.#arrayProds.push(obj);
+        await fs.writeFile(this.#fileProds, JSON.stringify(this.#arrayProds));
+      }
     } catch (error) {
       throw new Error('Se ha producido un error en el metodo save');
     }

@@ -16,10 +16,6 @@ const showMessages = msgs => {
   mensajesChat.innerHTML = msgHtml;
 };
 
-socket.on('updatedMsgs', arrayMsgs => {
-  showMessages(arrayMsgs);
-});
-
 btnSend.addEventListener('click', async () => {
 
   const inputEmail = document.getElementById('inputEmail');
@@ -33,4 +29,8 @@ btnSend.addEventListener('click', async () => {
     socket.emit('newMessage', msg);
   }
 
+});
+
+socket.on('updatedMsgs', arrayMsgs => {
+  showMessages(arrayMsgs);
 });

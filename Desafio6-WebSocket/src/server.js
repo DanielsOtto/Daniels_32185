@@ -10,6 +10,8 @@ const { engine } = require('express-handlebars');
 app.set('port', process.env.PORT || 8080);
 const element = require('./Container.js');
 
+exports.io = io.sockets;
+
 // configuracion Handlebars
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
@@ -23,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/', routerWeb);
 
 // SOCKET
-io.on('connection', socket => {
+io.on('connection', async socket => { //agregado async  verb
 
   socket.on('newMessage', async msg => {
     msg.date = new Date().toLocaleString();
@@ -31,11 +33,14 @@ io.on('connection', socket => {
     const arrayMsgs = await element.getMessages();
     io.sockets.emit('updatedMsgs', arrayMsgs);
   });
+  // const array = await element.getAll(); //agregado verb
+  // io.sockets.emit('showProducts', array) //agregado verb
 
-  socket.on('sendP', async () => {
-    const allP = await element.getAll();
-    io.sockets.emit('updateList', allP);
-  });
+  // socket.on('sendP', async () => {
+  //   const allP = await element.getAll();
+  //   io.sockets.emit('updateProducts', allP);
+  // });
+  io.sockets.emit('updateProducts', await element.getAll());
 });
 
 const server = httpServer.listen(app.get('port'), (req, res) => {  // OJO cambia aca

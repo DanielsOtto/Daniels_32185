@@ -1,5 +1,9 @@
 const socketChat = io();
 const sendProds = document.getElementById('sendProds');
+const form = document.getElementsByTagName('form');
+const iName = document.getElementById('inputName');
+const iUrl = document.getElementById('inputUrl');
+const iPrice = document.getElementById('inputPrice');
 
 const showProducts = products => {
   const listP = products.map(({ name, price, url, id }) => {
@@ -27,13 +31,30 @@ const showProducts = products => {
   listOfProds.innerHTML = msgList;
 }
 
-socketChat.on('updateList', arrayProducts => {
-  showProducts(arrayProducts);
+sendProds.addEventListener('click', (e) => {  //  FORMA A
+  // e.preventDefault()
+  const object = {
+    name: iName.value,
+    price: iPrice.value,
+    url: iUrl.value
+  }
+  iName.value = "";
+  iPrice.value = "";
+  iUrl.value = "";
+  generarPost(object);
 });
 
-sendProds.addEventListener('click', () => {
-  socketChat.emit('sendP', 'Se agregó un nuevo elemento');
-});
+const generarPost = (object) => {
 
+  fetch('http://localhost:8080/products/', {
+    method: "POST",
+    body: JSON.stringify(object),
+    headers: { "Content-type": "application/json; charset=UTF-8" }
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+};
 
-// si uso preventDefault no carga el archivo, si no lo uso, no visualiza los datos
+socketChat.on('updateProducts', arrayProducts => {
+  showProducts(arrayProducts);  //  va con el socket.emit del controlador
+}); // FORMA A 
