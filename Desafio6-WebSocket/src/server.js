@@ -10,8 +10,6 @@ const { engine } = require('express-handlebars');
 app.set('port', process.env.PORT || 8080);
 const element = require('./Container.js');
 
-exports.io = io.sockets;
-
 // configuracion Handlebars
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');

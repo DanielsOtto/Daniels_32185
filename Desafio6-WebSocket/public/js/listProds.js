@@ -46,7 +46,7 @@ sendProds.addEventListener('click', (e) => {  //  FORMA A
 
 const generarPost = (object) => {
 
-  fetch('http://localhost:8080/products/', {
+  fetch('/products/', {
     method: "POST",
     body: JSON.stringify(object),
     headers: { "Content-type": "application/json; charset=UTF-8" }

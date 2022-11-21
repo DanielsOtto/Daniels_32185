@@ -95,5 +95,8 @@ class Container {
   }
 }
 
+fs.writeFile('./fileProds.txt', '[]');
+fs.writeFile('./fileChats.txt', '[]');
+
 const element = new Container('./fileProds.txt', './fileChats.txt');
 module.exports = element;
