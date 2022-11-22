@@ -1,4 +1,5 @@
 import * as fs from 'fs';
+const ruta = './products.txt';
 
 class ContainerProds {
   #array;
@@ -43,7 +44,6 @@ class ContainerProds {
       const array = await this.getAll();
       const searchObject = array.find(obj => obj.id === id);
       let index = array.indexOf(searchObject);
-      console.log(index)
       if (index >= 0) {
         object.id = searchObject.id;
         array.splice(index, 1, object);
@@ -77,6 +77,6 @@ class ContainerProds {
   }
 }
 
-fs.promises.writeFile('./products.txt', '[]');
-const products = new ContainerProds('products.txt');
+fs.promises.writeFile(ruta, '[]');
+const products = new ContainerProds(ruta);
 export default products;

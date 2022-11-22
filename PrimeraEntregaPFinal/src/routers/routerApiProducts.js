@@ -1,4 +1,10 @@
-import { get, getById, post, updateById, deleteById } from '../controllers/controllersProducts.js';
+import {
+  get,
+  getById,
+  post,
+  updateById,
+  deleteById
+} from '../controllers/controllersProducts.js';
 import { Router } from 'express';
 const routerApiProducts = Router();
 let adminOn = false;
