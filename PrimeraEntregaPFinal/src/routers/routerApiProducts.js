@@ -1,49 +1,24 @@
 import {
+  adminLogin,
+  adminLogout,
+  restrictedEntry,
   get,
   getById,
   post,
   updateById,
   deleteById
 } from '../controllers/controllersProducts.js';
+import { notFound } from '../controllers/controllersCart.js';
 import { Router } from 'express';
 const routerApiProducts = Router();
-let adminOn = false;
 
-function restrictedEntry(req, res, next) {
-  try {
-    if (adminOn) {
-      next();
-    } else {
-      res.sendStatus(403);
-    }
-  } catch (error) {
-    throw new Error(error);
-  }
-}
-
-routerApiProducts.post('/login', (req, res) => {
-  try {
-    adminOn = true;
-    console.log(adminOn)
-    res.sendStatus(200);
-  } catch (error) {
-    throw new Error('Error al loguearse');
-  }
-})
-
-routerApiProducts.post('/logout', (req, res) => {
-  try {
-    adminOn = false;
-    res.sendStatus(200);
-  } catch (error) {
-    throw new Error('Error al desconectarse');
-  }
-})
-
+routerApiProducts.post('/login', adminLogin);
+routerApiProducts.post('/logout', adminLogout);
 routerApiProducts.get('/', get);
 routerApiProducts.get('/:id', getById);
 routerApiProducts.post('/', restrictedEntry, post);
 routerApiProducts.put('/:id', restrictedEntry, updateById);
 routerApiProducts.delete('/:id', restrictedEntry, deleteById);
+routerApiProducts.all('*', notFound);
 
 export default routerApiProducts;

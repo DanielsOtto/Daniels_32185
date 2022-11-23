@@ -34,7 +34,6 @@ async function deleteAllProducts({ params }, res) {
     res.json({ message: 'deleted object' });
   } catch (error) {
     throw new Error('Error en el controlador deleteAllProducts');
-    // throw new Error(error);
   }
 }
 
@@ -50,21 +49,24 @@ async function getCartProducts({ params }, res) {
     }
   } catch (error) {
     throw new Error('Error en el controlador getCartProducts');
-    // throw new Error(error);
   }
 }
 
 async function deleteOneProductById({ params }, res) {
   try {
-    console.log(params)
-    console.log(params.id_cart)
-    console.log(params.id_prod)
     await cart.deleteOneProdById(params.id_cart, params.id_prod);
     res.json({ message: 'deleted object' });
   } catch (error) {
-    // throw new Error('Error en el controlador deleteOneProductById');
-    throw new Error(error);
+    throw new Error('Error en el controlador deleteOneProductById');
   }
 }
 
-export { postCreateCart, postAddProducts, deleteAllProducts, getCartProducts, deleteOneProductById };
+function notFound(req, res) {
+  try {
+    res.status(404).json({ Message: 'Page not found', 'Wrong route': req.path, Method: req.method });
+  } catch (error) {
+    throw new Error('Error en el controlador notFound');
+  }
+}
+
+export { postCreateCart, postAddProducts, deleteAllProducts, getCartProducts, deleteOneProductById, notFound };

@@ -1,5 +1,39 @@
 import products from "../containers/ContainerProds.js";
 import { randomUUID } from 'crypto';
+let adminOn = false;
+
+function restrictedEntry(req, res, next) {
+  try {
+    if (adminOn) {
+      next();
+    } else {
+      res.status(403);
+      res.json({ error: 'Unauthorized access', description: req.path, method: req.method });
+
+    }
+  } catch (error) {
+    throw new Error(error);
+  }
+}
+
+function adminLogin(req, res) {
+  try {
+    adminOn = true;
+    console.log(adminOn)
+    res.sendStatus(200);
+  } catch (error) {
+    throw new Error('Error al loguearse');
+  }
+}
+
+function adminLogout(req, res) {
+  try {
+    adminOn = false;
+    res.sendStatus(200);
+  } catch (error) {
+    throw new Error('Error al desconectarse');
+  }
+}
 
 async function get(req, res) {
   try {
@@ -55,4 +89,4 @@ async function deleteById({ params }, res) {
   }
 }
 
-export { get, getById, post, updateById, deleteById };
+export { get, getById, post, updateById, deleteById, adminLogin, adminLogout, restrictedEntry };
