@@ -32,20 +32,16 @@ const showProducts = products => {
 }
 
 sendProds.addEventListener('click', (e) => {  //  FORMA A
-  // e.preventDefault()
+  e.preventDefault() //forma a
+  generarPost();
+});
+
+const generarPost = () => {
   const object = {
     name: iName.value,
     price: iPrice.value,
     url: iUrl.value
   }
-  iName.value = "";
-  iPrice.value = "";
-  iUrl.value = "";
-  generarPost(object);
-});
-
-const generarPost = (object) => {
-
   fetch('/products/', {
     method: "POST",
     body: JSON.stringify(object),
@@ -57,4 +53,4 @@ const generarPost = (object) => {
 
 socketChat.on('updateProducts', arrayProducts => {
   showProducts(arrayProducts);  //  va con el socket.emit del controlador
-}); // FORMA A 
+}); // FORMA A  anda perfecto

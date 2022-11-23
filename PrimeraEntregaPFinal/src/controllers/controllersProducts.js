@@ -76,7 +76,8 @@ async function updateById({ body, params }, res) {
     await products.updateById(params.id, object);
     res.json(object);
   } catch (error) {
-    throw new Error('Se ha producido un error en el controlador Put');
+    // throw new Error('Se ha producido un error en el controlador Put');
+    throw new Error(error)
   }
 }
 

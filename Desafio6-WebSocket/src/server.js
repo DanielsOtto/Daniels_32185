@@ -18,6 +18,8 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
+//middleware en el server, creado para que agarre todas las peticiones y las guarde en una referencia al objeto io
+app.use((req, res, next) => { req.io = io; next(); });  //----- PARA LA FORMA  A -- anda perfecto
 
 // RUTAS
 app.use('/', routerWeb);
@@ -38,7 +40,7 @@ io.on('connection', async socket => { //agregado async  verb
   //   const allP = await element.getAll();
   //   io.sockets.emit('updateProducts', allP);
   // });
-  io.sockets.emit('updateProducts', await element.getAll());
+  // io.sockets.emit('updateProducts', await element.getAll()); // forma b hacia polling -- 
 });
 
 const server = httpServer.listen(app.get('port'), (req, res) => {  // OJO cambia aca

@@ -27,15 +27,15 @@ async function get(req, res) {
   }
 }
 
-async function post({ body }, res) {
+async function post({ body, io }, res) {
   try {
     const object = body;
     object.id = randomUUID();
     await element.save(object);
+    // res.redirect('/'); // devuelve un html, necesito JSON o res.send FORMA B --- hacia polling 
+    io.sockets.emit('updateProducts', await element.getAll()); // FORMA A --- anda perfecto
     res.status(201);
-    res.redirect('/'); // devuelve un html, necesito JSON o res.send
-    // res.json(object);
-    // io.sockets.emit('updateProducts', await element.getAll()); // FORMA A
+    res.json(object);
   } catch (error) {
     throw new Error('Se ha producido un error en el controlador POST');
   }

@@ -74,9 +74,7 @@ class Container {
       throw new Error('Se ha producido un error en el metodo deleteAll');
     }
   }
-
-  // --- faltan metodos para intereactuar con los chats
-
+  //--- metodos para interactuar en el chat
   async saveMessage(objMsg) {
     try {
       this.#arrayChats.push(objMsg);
