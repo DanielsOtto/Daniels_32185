@@ -8,7 +8,6 @@ import {
   updateById,
   deleteById
 } from '../controllers/controllersProducts.js';
-import { notFound } from '../controllers/controllersCart.js';
 import { Router } from 'express';
 const routerApiProducts = Router();
 
@@ -19,6 +18,5 @@ routerApiProducts.get('/:id', getById);
 routerApiProducts.post('/', restrictedEntry, post);
 routerApiProducts.put('/:id', restrictedEntry, updateById);
 routerApiProducts.delete('/:id', restrictedEntry, deleteById);
-routerApiProducts.all('*', notFound);
 
 export default routerApiProducts;

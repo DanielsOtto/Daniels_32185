@@ -1,6 +1,7 @@
 import express from 'express';
 import routerApiProducts from './routers/routerApiProducts.js';
 import routerApiCart from './routers/routerApiCart.js';
+import { notFound } from './controllers/controllersCart.js';
 const app = express();
 app.set('port', process.env.PORT || 8080);
 
@@ -11,6 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 //RUTAS
 app.use('/api/products', routerApiProducts);
 app.use('/api/shoppingcart', routerApiCart);
+app.all('*', notFound);
 
 app.listen(app.get('port'), (req, res) => {
   try {
