@@ -1,8 +1,8 @@
-import mysqlContainer from './mysqlContainer.js';
+import ContainerMysql from './ContainerMysql.js';
 import { mysqlConfig } from '../config.js';
 import createKnexClient from 'knex';
 const clientSql = createKnexClient(mysqlConfig);
 const tableName = 'products';
 
 
-export const productsContainer = new mysqlContainer(clientSql, tableName);
+export const ProductsContainer = new ContainerMysql(clientSql, tableName);

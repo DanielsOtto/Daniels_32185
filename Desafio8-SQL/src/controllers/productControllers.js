@@ -1,4 +1,4 @@
-import { productsContainer } from "../containers/productsContainer.js";
+import { ProductsContainer } from "../containers/productsContainer.js";
 import { randomUUID } from 'crypto';
 import { createTable } from '../tables/productsTable.js';
 const tableName = 'products';
@@ -15,7 +15,7 @@ async function createProductsTable(req, res, next) {  // middleware para todas l
 
 async function get(req, res) {
   try {
-    res.json(await productsContainer.getAll());
+    res.json(await ProductsContainer.getAll());
   } catch (err) {
     // throw new Error('Error en el metodo getAll');
     throw new Error(err);
@@ -26,7 +26,7 @@ async function post({ body }, res) {
   try {
     const object = body;
     object.id = randomUUID();
-    await productsContainer.save(object);
+    await ProductsContainer.save(object);
     res.status(201);
     res.json(object);
   } catch (error) {
@@ -37,7 +37,7 @@ async function post({ body }, res) {
 
 async function getById({ params }, res) {
   try {
-    const wanted = await productsContainer.getById(params.id_prod);
+    const wanted = await ProductsContainer.getById(params.id_prod);
     if (!wanted) {
       res.status(404);
       res.json({ message: 'not found' });
@@ -52,9 +52,9 @@ async function getById({ params }, res) {
 
 async function deleteAll(req, res) {
   try {
-    await productsContainer.deleteAll();
+    await ProductsContainer.deleteAll();
     res.status(201);
-    res.json(await productsContainer.getAll());
+    res.json(await ProductsContainer.getAll());
   } catch (error) {
     throw new Error(error);
   }

@@ -1,4 +1,4 @@
-class ContainerMysql {
+export default class ContainerMysql {
   #client;
   #table;
   constructor(clienteMysql, myTable) {
@@ -65,4 +65,3 @@ class ContainerMysql {
   // }
 }
 
-export default ContainerMysql;
