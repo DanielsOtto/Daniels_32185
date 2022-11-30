@@ -33,18 +33,13 @@ export default class ContainerMysql {
     }
   }
 
-  // async updateById(id, object) {
-  //   try {
-  //     const array = await this.getAll();
-  //     const wanted = array.find(obj => obj.id === id);
-  //     if (!wanted) {
-  //       return wanted;
-  //     }
-  //     object.id = id;
-  //   } catch (error) {
-  //     throw error;
-  //   }
-  // }
+  async updateById(id, object) {
+    try {
+      await this.#client(this.#table).update(object).where('id', id);
+    } catch (error) {
+      throw error;
+    }
+  }
 
   async deleteAll() {
     try {
@@ -54,14 +49,12 @@ export default class ContainerMysql {
     }
   }
 
-  // async deleteById(id) {
-  //   try {
-  //     // const array = await this.getAll();
-  //     // const wanted = array.find(obj => obj.id === id);
-  //     // await this.#client(this.#table).delete().where()
-  //   } catch (error) {
-  //     throw new Error('Error en el metodo delete all');
-  //   }
-  // }
+  async deleteById(id) {
+    try {
+      await this.#client(this.#table).delete().where('id', id);
+    } catch (error) {
+      throw new Error('Error en el metodo delete all');
+    }
+  }
 }
 

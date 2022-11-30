@@ -60,5 +60,25 @@ async function deleteAll(req, res) {
   }
 }
 
+async function updateById({ body, params }, res) {
+  try {
+    await MessagesContainer.updateById(params.id_msg, body);
+    res.status(201)
+    res.json(body);
+  } catch (error) {
+    throw error;
+  }
+}
 
-export { get, post, getById, deleteAll, createMessagesTable };
+async function deleteById({ params }, res) {
+  try {
+    await MessagesContainer.deleteById(params.id_msg);
+    res.status(201)
+    res.json(await MessagesContainer.getAll());
+  } catch (error) {
+    throw error;
+  }
+}
+
+
+export { get, post, getById, deleteAll, createMessagesTable, updateById, deleteById };

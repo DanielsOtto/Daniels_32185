@@ -4,7 +4,7 @@ import { createTable } from '../tables/productsTable.js';
 const tableName = 'products';
 
 
-async function createProductsTable(req, res, next) {  // middleware para todas las rutas
+export async function createProductsTable(req, res, next) {  // middleware para todas las rutas
   try {
     await createTable(tableName);
     next();
@@ -13,7 +13,7 @@ async function createProductsTable(req, res, next) {  // middleware para todas l
   }
 }
 
-async function get(req, res) {
+export async function get(req, res) {
   try {
     res.json(await ProductsContainer.getAll());
   } catch (err) {
@@ -22,7 +22,7 @@ async function get(req, res) {
   }
 }
 
-async function post({ body }, res) {
+export async function post({ body }, res) {
   try {
     const object = body;
     object.id = randomUUID();
@@ -35,7 +35,7 @@ async function post({ body }, res) {
   }
 }
 
-async function getById({ params }, res) {
+export async function getById({ params }, res) {
   try {
     const wanted = await ProductsContainer.getById(params.id_prod);
     if (!wanted) {
@@ -50,7 +50,17 @@ async function getById({ params }, res) {
   }
 }
 
-async function deleteAll(req, res) {
+export async function updateById({ body, params }, res) {
+  try {
+    await ProductsContainer.updateById(params.id_prod, body);
+    res.status(201);
+    res.json(body);
+  } catch (error) {
+    throw error;
+  }
+}
+
+export async function deleteAll(req, res) {
   try {
     await ProductsContainer.deleteAll();
     res.status(201);
@@ -60,4 +70,14 @@ async function deleteAll(req, res) {
   }
 }
 
-export { get, post, getById, deleteAll, createProductsTable };
+export async function deleteById({ params }, res) {
+  try {
+    await ProductsContainer.deleteById(params.id_prod);
+    res.status(201);
+    res.json(await ProductsContainer.getAll());
+  } catch (error) {
+    throw error;
+  }
+}
+
+// export { get, post, getById, deleteAll, createProductsTable };
