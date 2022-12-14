@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "segundaentregapfinal",
+  "version": "1.0.0",
+  "description": "~~ comandos\r npm init o npm init -y (acepta todo por defecto)\r npm i\r npm i express\r (npm i express-handlebars)\r agregar en el archivo package.json\r --- \"type\": \"module\",",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node .",
+    "test": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1"
+  }
+}

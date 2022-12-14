@@ -1,0 +1,95 @@
+Consultas realizadas:
+
+1) - use ecommerce // - Creo la base de datos "ecommerce" -- use se utiliza para posicionarse en una base de datos y si no existe la crea
+
+2) -a- db.createCollections("mensajes")
+   -b- db.createCollections("productos")
+
+// utilizamos "show dbs" para ver las bases de datos y "show collections" para ver las colecciones en la base de datos en la que estamos posicionados
+// mongoDB utiliza sintaxis de puntos para sus operaciones
+
+3) Agregando objetos a las colecciones
+
+	-a- Con la sentencia db.productos.insertOne() agregamos de a un elemento
+		db.productos.insertOne({ name: "red Box", price: 555, description: "the happy red box", thumbnail: "www.theredbox.com"})
+
+	-b- Con la sentencia db.productos.insertMany() agregamos de a varios elementos
+		db.productos.insertMany([{name: "blue Box", price: 15, description: "the box", thumbnail: "www.bluebx.com"}, {name: "yellow Box", price: 515, description: "the yellow box", thumbnail: "www.ybox.com"}, 
+{name: "dark Box", price: 3355, description: "dark box", thumbnail: "www.dkbox.com"}, {name: "pink Box", price: 4995, description: "the pretty pink box", thumbnail: "www.prettybox.com"},
+ {name: "team 1 Box", price: 1555, description: "the team 1 box", thumbnail: "www.t1box.com"}, {name: "white Box", price: 115, description: "the white box", thumbnail: "www.whitebox.com"},
+{name: "the special Box", price: 5000, description: "special box", thumbnail: "www.thespecial.com"}, {name: "team 2 Box", price: 2555, description: "the team 2 box", thumbnail: "www.t2box.com"}, 
+{name: "gray Box", price: 115, description: "gray box", thumbnail: "www.gbox.com"}])
+
+	-c- utilizo db.productos.find() para mostrar todos los elementos cargados en la colección de productos.
+
+	-d- Con la sentencia db.mensajes.insertMany() agregamos varios elementos a la colección de mensajes.
+		db.mensajes.insertMany([{user: "blanqui", mensaje: "estoy ahi" }, {user: "negri", mensaje: "estoy yendo" }, {user: "grisin", mensaje: "no voy" },
+		{user: "colo", mensaje: "gracias por venir" }, {user: "machete", mensaje: "gracias" }, {user: "blanqui", mensaje: "en 20 me voy" },
+		{user: "colo", mensaje: "quedate" }, {user: "grisin", mensaje: "al final me prendo, puedo ?" }, {user: "negri", mensaje: "no sali, te busco" },
+		{user: "el_loco", mensaje: "gracias por todo!" }])
+
+	-e- Con la sentencia db.mensajes.find() visualizamos los elementos cargados en la colección mensajes.
+
+	-f- Con la sentencia db.mensajes.countDocuments() ( o estimatedDocumentCount ) podemos visualizar la cantidad de elementos en la colección mensajes.
+
+
+4)  Realizando CRUD sobre la colección de productos.
+
+
+	-a- Agrego un nuevo producto en la colección de productos
+		db.productos.insertOne({name: "the top box", price: 1555, description: "top box", thumbnail: "www.topbox.com"})
+
+	-b- Listar los productos con precio menor a 1000.
+		utilizo la sentencia db.productos.find({"price": {$lt: 1000}})
+
+	-c- Listar los productos con precio entre 1000 y 3000
+		db.productos.find({"price": { $gte : 1000 , $lte : 3000}})
+
+	-d- Listar los productos con precio mayor a 3000.
+		db.productos.find({"price": {$gt: 3000}})
+
+	-e- Realizar una consulta que traiga sólo el nombre del producto más barato
+ 		db.productos.find({"price": {$lt:1000}}, { name: 1 }).sort({"price": 1}).limit(1).skip(2) // muestra el nombre y el objectID que lo pasa por defecto
+
+
+5) Hacer una actualización sobre todos los productos, agregando el campo stock a todos ellos con un valor de 100.
+	
+	db.productos.updateMany({}, {$set: {stock: 100}})
+
+6) Cambiar el stock a 0 de los productos con precios mayores a 4000 
+	db.productos.updateMany({"price": {$gt: 4000}}, {$set: {stock: 0}})
+
+7) Borrar los productos con precio menor a 1000
+	db.productos.deleteMany({"price": {$lt: 1000}})
+
+8)Crear un usuario "pepe" con contraseña "asd456" que solo pueda leer la base de datos ecommerce. Verificar que pepe no pueda modificar la información.
+
+-- A --MOVERSE A LA BASE ADMIN --> use admin
+
+-- B -- creando el usuario pepe
+
+db.createUser({user: "<nombre_del_usuario>", pwd: "<contraseña>", roles: { role: "< read | readWrite", db: "<base_de_datos>" }]})
+db.createUser({user: "pepe", pwd: "asd456", roles: [{ role: "read", db: "ecommerce" }]})
+
+-- C -- una vez creado el usuario, hay que levantar el servidor en modo producción para que verifique las autenticaciones y ponga en efecto los permisos
+Para ello hay que detener la BD y volverla a levantar con el argumento  --auth
+
+mongod --dbpath "C:\ecommerce" --auth
+
+-- En la consola del lado del cliente, también nos desconectamos, así podemos conectarnos con el usuario "pepe".
+Para loguearnos usamos la siguiente sintaxis: mongosh -u pepe -d asd456
+
+Utilizo la sentencia "show dbs" y solo muestra la base de datos de ecommerce. 
+Al utilizar la sentencia "show collections" me muestra mensajes y productos.
+
+Cuando utilizo el comando db.productos.insertOne({name: "koala"}) o db.productos.deleteOne la consola me advierte que no
+estoy autorizado para ejecutar ese comando en la base de datos ecommerce.
+Mientras que si utilizo el comando db.productos.find() me muestra todos los elementos dentro de la colección productos.
+
+
+ 
+
+
+
+
+
