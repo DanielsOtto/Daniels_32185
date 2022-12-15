@@ -1,17 +1,23 @@
-import { ModelContainer } from '../models/ModelContainer.js';
-import { randomUUID } from crypto;
+import { chosenProdsContainer } from "../containers/DataContainer.js";
+import { saveProds, updateProdsById, deleteOne } from "../models/productsModel.js";
 
-async function get(req, res) {
+//EL CONTROLADOR DELEGA LAS TAREAS AL MODELO
+// NEXO entre la VISTA y el MODELO
+// trabajo aca y llamo al modelo
+
+async function getAllProducts(req, res) {
   try {
-    res.json(await ModelContainer.getAllProds());
+    res.json(await chosenProdsContainer.getAll());
   } catch (error) {
     throw error;
   }
 }
 
-async function getById({ params }, res) {
+async function getByIdProducts({ params }, res) {
   try {
-    let product = await ModelContainer.getByIdProd(params.id);
+    let product = await chosenProdsContainer.getById(params.id);
+    //el producto todavia no es un objeto, hay q transformarlo.
+    // fijarse con el video de la clase
     if (!product) {
       res.status(404);
       res.json({ error: 'product not found' });
@@ -24,11 +30,11 @@ async function getById({ params }, res) {
   }
 }
 
-async function post({ body }, res) {
+async function saveProduct({ body }, res) {
   try {
     const object = body;
-    object.id = randomUUID(); // hay q guardarlo en los contenedores como _id
-    await ModelContainer.saveProds(object);
+    saveProds(object);
+    // object.id = randomUUID(); // hay q guardarlo en los contenedores como _id
     res.status(201);
     res.json(object);
   } catch (err) {
@@ -39,28 +45,33 @@ async function post({ body }, res) {
 async function updateById({ body, params }, res) {
   try {
     const object = body;
-    await ModelContainer.updateByIdProd(params.id, object);
+    await updateProdsById(params.id, object)
+    // await chosenProdsContainer.updateByIdProd(params.id, object);
     res.status(201);
     res.json(object);
   } catch (err) {
-    throw err;
+    console.log(err);
+    throw new Error('Error al actualizar por id');
   }
 }
 
 async function deleteById({ params }, res) {
   try {
-    await ModelContainer.deleteByIdProds(params.id);
+    await deleteOne(params.id);
+    res.sendStatus(200);
   } catch (err) {
-    throw err;
+    console.log(err);
+    throw new Error('Error al borrar por id');
   }
 }
 
 async function deleteAll(req, res) {
   try {
-    await ModelContainer.deleteAllProds();
+    await chosenProdsContainer.deleteAll();
+    res.sendStatus(200);
   } catch (err) {
     throw err;
   }
 }
 
-export { get, getById, post, updateById, deleteById, deleteAll };
+export { getAllProducts, getByIdProducts, saveProduct, updateById, deleteById, deleteAll };

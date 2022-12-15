@@ -1,7 +1,9 @@
 import * as fs from 'fs';
 import { RUTA } from '../config/config.js';
 
-fs.promises.writeFile(RUTA, '[]');
+
+
+// fs.promises.writeFile(RUTA, '[]');
 
 export class ProductsContainer {
   #array;
@@ -11,7 +13,7 @@ export class ProductsContainer {
     this.#array = [];
   }
 
-  async saveObjectProd(object) { // se llamaba save
+  async save(object) { // se llamaba save
     try {
       this.#array.push(object);
       await fs.promises.writeFile(this.#file, JSON.stringify(this.#array));
@@ -41,11 +43,12 @@ export class ProductsContainer {
     }
   }
 
-  async getUpdateById(id, object) {
+  async updateById(oldObject, object) {
     try {
       const array = await this.getAll();
-      const searchObject = array.find(obj => obj.id === id);
-      const index = array.indexOf(searchObject);
+      // const searchObject = array.find(obj => obj.id === id);
+      // const index = array.indexOf(searchObject);
+      const index = array.indexOf(oldObject);
       if (index >= 0) {
         object.id = searchObject.id;
         array.splice(index, 1, object);
@@ -56,11 +59,12 @@ export class ProductsContainer {
     }
   }
 
-  async deleteById(id) {
+  async deleteById(object) {
     try {
       this.#array = await this.getAll();
-      const searchObject = this.#array.find(obj => obj.id === id);
-      const index = this.#array.indexOf(searchObject);
+      // const searchObject = this.#array.find(obj => obj.id === id);
+      // const index = this.#array.indexOf(searchObject);
+      const index = this.#array.indexOf(object);
       if (index >= 0) {
         this.#array.splice(index, 1);
       }

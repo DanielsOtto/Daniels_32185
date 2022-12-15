@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import { CART_ROUT } from '../config/config.js';
 
-fs.promises.writeFile(CART_ROUT, '[]');
+// fs.promises.writeFile(CART_ROUT, '[]');
 
 export class CartContainer {
   #cartObject;
