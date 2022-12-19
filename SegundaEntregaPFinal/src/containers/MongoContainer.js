@@ -11,15 +11,18 @@ export class MongoDBContainer {
     try {
       await this.#collection.insertOne(object);
     } catch (err) {
-      throw err;
+      console.log(err);
+      throw new Error('Error al guardar en mongodb');
     }
+    return object;
   }
 
   async getAll() { // obtener todo - anda bien 
     try {
       return await this.#collection.find({}).toArray(); // es necesario el objeto vacio ??
     } catch (err) {
-      throw err;
+      console.log(err);
+      throw new Error('Error al obtener elementos en mongodb');
     }
   }
 
@@ -27,7 +30,8 @@ export class MongoDBContainer {
     try {
       return await this.#collection.findOne({ id: id });
     } catch (err) {
-      throw err;
+      console.log(err);
+      throw new Error('Error al obtener un dato en mongodb');
     }
   }
 
@@ -35,7 +39,8 @@ export class MongoDBContainer {
     try {
       await this.#collection.updateOne(oldObject, { $set: obj }); // corregir "metodo coleccion.updateById ?"
     } catch (err) {
-      throw err;
+      console.log(err);
+      throw new Error('Error al actualizar un dato en mongodb');
     }
   }
 
@@ -43,7 +48,8 @@ export class MongoDBContainer {
     try {
       await this.#collection.deleteOne({ id: object.id });
     } catch (err) {
-      throw err;
+      console.log(err);
+      throw new Error('Error al eliminar un dato en mongodb');
     }
   }
 
@@ -52,7 +58,8 @@ export class MongoDBContainer {
       await this.#collection.deleteMany({});
       // borra toda la coleccion con un objeto literal vacio
     } catch (err) {
-      throw err;
+      console.log(err);
+      throw new Error('Error al intentear eliminar todos los datos, en mongodb');
     }
   }
 

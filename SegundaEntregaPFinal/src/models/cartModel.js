@@ -1,6 +1,8 @@
 import { chosenCartContainer, chosenProdsContainer } from '../containers/DataContainer.js';
 import { randomUUID } from 'crypto';
 
+// ---- CART MODEL ES USADO POR EL CONTROLADOR  ---- 
+
 
 // post crea un carrito  con una lista vacia de productos
 // y devuelve su id
@@ -11,8 +13,8 @@ export async function createCart() { // me encanta --bien
       id: idRandom,
       products: []
     }
-    await chosenCartContainer.save(cart);
-    return idRandom;
+    const saves = await chosenCartContainer.save(cart);
+    return saves.id;
   } catch (err) {
     console.log(err);
     throw new Error('Error al crear el carrito');

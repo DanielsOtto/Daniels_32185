@@ -1,9 +1,5 @@
 import * as fs from 'fs';
-import { RUTA } from '../config/config.js';
 
-
-
-// fs.promises.writeFile(RUTA, '[]');
 
 export class ProductsContainer {
   #array;
@@ -17,8 +13,10 @@ export class ProductsContainer {
     try {
       this.#array.push(object);
       await fs.promises.writeFile(this.#file, JSON.stringify(this.#array));
+      return object;
     } catch (err) {
-      throw err;
+      console.log(err);
+      throw new Error('Error al guardar el objeto');
     }
   }
 
@@ -26,7 +24,8 @@ export class ProductsContainer {
     try {
       return JSON.parse(await fs.promises.readFile(this.#file, 'utf-8'));
     } catch (err) {
-      throw err;
+      console.log(err);
+      throw new Error('Error al obtener el objeto');
     }
   }
 
@@ -39,38 +38,36 @@ export class ProductsContainer {
       }
       return null;
     } catch (err) {
-      throw err;
+      throw new Error({ errorMessage: err.message });
     }
   }
 
   async updateById(oldObject, object) {
     try {
       const array = await this.getAll();
-      // const searchObject = array.find(obj => obj.id === id);
-      // const index = array.indexOf(searchObject);
-      const index = array.indexOf(oldObject);
+      const index = array.findIndex(elem => elem.id === oldObject.id);
+      console.log(index)
       if (index >= 0) {
-        object.id = searchObject.id;
+        object.id = oldObject.id;
         array.splice(index, 1, object);
         await fs.promises.writeFile(this.#file, JSON.stringify(array));
       }
     } catch (err) {
-      throw err;
+      throw new Error({ errorMessage: err.message });
     }
   }
 
   async deleteById(object) {
     try {
       this.#array = await this.getAll();
-      // const searchObject = this.#array.find(obj => obj.id === id);
-      // const index = this.#array.indexOf(searchObject);
-      const index = this.#array.indexOf(object);
+      const index = this.#array.findIndex(ele => ele.id === object.id);
       if (index >= 0) {
         this.#array.splice(index, 1);
+        await fs.promises.writeFile(this.#file, JSON.stringify(this.#array));
       }
-      await fs.promises.writeFile(this.#file, JSON.stringify(this.#array));
     } catch (err) {
-      throw err;
+      console.log(err)
+      throw new Error({ errorMessage: err.message });
     }
   }
 
@@ -78,7 +75,7 @@ export class ProductsContainer {
     try {
       await fs.promises.writeFile(this.#file, '[]');
     } catch (err) {
-      throw err;
+      throw new Error({ errorMessage: err.message });
     }
   }
 }

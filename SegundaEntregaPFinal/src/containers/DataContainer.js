@@ -18,8 +18,8 @@ switch (PERSISTENCIA) {
     chosenCartContainer = new FirestoreContainer('cart');
     break;
   default:
-    // chosenProdsContainer = new ProductsContainer(RUTA);
-    // chosenCartContainer = new CartContainer(CART_ROUT);
+    chosenProdsContainer = new ProductsContainer(RUTA);
+    chosenCartContainer = new CartContainer(CART_ROUT);
     break;
 }
 

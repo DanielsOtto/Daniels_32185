@@ -1,7 +1,4 @@
 import * as fs from 'fs';
-import { CART_ROUT } from '../config/config.js';
-
-// fs.promises.writeFile(CART_ROUT, '[]');
 
 export class CartContainer {
   #cartObject;
@@ -14,24 +11,44 @@ export class CartContainer {
     };
   }
 
-  async createCart(id) {
+  // async createCart(id) {
+  //   try {
+  //     this.#cartObject.id = id;
+  //     await fs.promises.writeFile(this.#file, JSON.stringify(this.#cartObject));
+  //   } catch (err) {
+  //     throw new Error({ errorMessage: err.message });
+  //   }
+  // }
+
+  async save(object) {
+    let array = [];
     try {
-      this.#cartObject.id = id;
-      await fs.promises.writeFile(this.#file, JSON.stringify(this.#cartObject));
+      array = await this.getAll()
+      if (object) {
+        array.push(object)
+      }
+      await fs.promises.writeFile(this.#file, JSON.stringify(array));
+      return object;
     } catch (err) {
-      throw (err);
+      console.log(err);
+      throw new Error(err);
     }
   }
 
-  async saveObjectCart(id, object) {
+  async updateById(cart, object) {
     try {
-      this.#cartObject = await this.getAll();
-      if (this.#cartObject.id === id) {
-        this.#cartObject.products.push(object);
-        await fs.promises.writeFile(this.#file, JSON.stringify(this.#cartObject));
+      // console.log(cart)
+      const array = await this.getAll();
+      for (let obj of array) {
+        // console.log(array)
+
+        if (obj.id === cart.id) {
+          obj.products.push(object);
+          await fs.promises.writeFile(this.#file, JSON.stringify(obj));
+        }
       }
     } catch (err) {
-      throw err;
+      throw new Error({ errorMessage: err.message });
     }
   }
 
@@ -39,47 +56,52 @@ export class CartContainer {
     try {
       return JSON.parse(await fs.promises.readFile(this.#file, 'utf-8'));
     } catch (err) {
-      throw err;
+      throw new Error({ errorMessage: err.message });
     }
   }
 
-  async deleteAllProducts(id) { // cambiar a deleteAll
+  async deleteAll(id) { // borra todos los elementos de un carrito
     try {
-      this.#cartObject = await this.getAll();
-      if (this.#cartObject.id === id) {
-        this.#cartObject.products = [];
-        await fs.promises.writeFile(this.#file, JSON.stringify(this.#cartObject));
+      const array = await this.getAll();
+      for (const object of array) {
+        if (object.id === id) {
+          object.products = [];
+          await fs.promises.writeFile(this.#file, JSON.stringify(object));
+        }
       }
     } catch (err) {
-      throw err;
+      throw new Error({ errorMessage: err.message });
     }
   }
 
-  async getAllProducts(id) {
+  async getById(id) { // obtiene los productos de un carrito -- aca me esta dando null
     try {
-      this.#cartObject = await this.getAll();
-      if (this.#cartObject.id === id) {
-        return this.#cartObject.products;
+      const array = await this.getAll();
+      const searchObject = array.find(obj => obj.id === id);
+      if (searchObject) {
+        return searchObject;
       }
       return null;
-    } catch (error) {
-      throw error;
+    } catch (err) {
+      throw new Error({ errorMessage: err.message });
     }
   }
 
-  async deleteOneProdById(idCart, idProd) { //metodo correcto
+  async deleteById(idCart, idProd) { //metodo correcto
     try {
-      this.#cartObject = await this.getAll();
-      if (this.#cartObject.id === idCart) {
-        const searchObject = this.#cartObject.find(ele => ele.id === idProd);
-        const index = this.#cartObject.products.indexOf(searchObject);
-        if (index >= 0) {
-          this.#cartObject.products.splice(index, 1);
+      const array = await this.getAll();
+      for (const object of array) {
+        if (object.id === idCart) {
+          const searchObject = this.#cartObject.find(ele => ele.id === idProd);
+          const index = this.#cartObject.products.indexOf(searchObject);
+          if (index >= 0) {
+            this.#cartObject.products.splice(index, 1);
+          }
+          await fs.promises.writeFile(this.#file, JSON.stringify(this.#cartObject));
         }
-        await fs.promises.writeFile(this.#file, JSON.stringify(this.#cartObject));
       }
     } catch (err) {
-      throw err;
+      throw new Error({ errorMessage: err.message });
     }
   }
 }

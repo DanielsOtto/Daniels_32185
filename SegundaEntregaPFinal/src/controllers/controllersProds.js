@@ -1,12 +1,28 @@
+import * as fs from 'fs';
 import { chosenProdsContainer } from "../containers/DataContainer.js";
 import { saveProds, updateProdsById, deleteOne } from "../models/productsModel.js";
+import { RUTA } from '../config/config.js';
+
 
 //EL CONTROLADOR DELEGA LAS TAREAS AL MODELO
 // NEXO entre la VISTA y el MODELO
 // trabajo aca y llamo al modelo
 
+async function createFileS(req, res, next) {
+  try {
+    if (!fs.existsSync(RUTA)) {
+      await fs.promises.writeFile(RUTA, '[]');
+    }
+    next();
+  } catch (error) {
+    console.log(error)
+    throw new Error('Error al crear el archivo');
+  }
+}
+
 async function getAllProducts(req, res) {
   try {
+    res.status(200);
     res.json(await chosenProdsContainer.getAll());
   } catch (error) {
     throw error;
@@ -33,10 +49,9 @@ async function getByIdProducts({ params }, res) {
 async function saveProduct({ body }, res) {
   try {
     const object = body;
-    saveProds(object);
-    // object.id = randomUUID(); // hay q guardarlo en los contenedores como _id
+    const result = await saveProds(object); // result muestra objeto vacio -- faltaba await
     res.status(201);
-    res.json(object);
+    res.json(result);
   } catch (err) {
     throw err;
   }
@@ -74,4 +89,4 @@ async function deleteAll(req, res) {
   }
 }
 
-export { getAllProducts, getByIdProducts, saveProduct, updateById, deleteById, deleteAll };
+export { getAllProducts, getByIdProducts, saveProduct, updateById, deleteById, deleteAll, createFileS };

@@ -5,7 +5,20 @@ import {
   deleteProdsInCart,
   getAllProducts
 } from '../models/cartModel.js';
+import * as fs from 'fs';
+import { CART_ROUT } from '../config/config.js';
 
+async function createFileS(req, res, next) {
+  try {
+    if (!fs.existsSync(CART_ROUT)) {
+      await fs.promises.writeFile(CART_ROUT, '[]');
+    }
+    next();
+  } catch (error) {
+    console.log(error)
+    throw new Error('Error al crear el archivo');
+  }
+}
 
 // post crea un carrito  con una lista vacia de productos
 // y devuelve su id
@@ -72,4 +85,4 @@ async function deleteOneP({ params }, res) {
 }
 
 
-export { createC, addProducts, cleanCart, showProducts, deleteOneP };
+export { createC, addProducts, cleanCart, showProducts, deleteOneP, createFileS };

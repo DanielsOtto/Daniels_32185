@@ -20,13 +20,14 @@ function validadrProducto(obj) {
 }
 
 export async function saveProds(obj) {
+  obj.id = randomUUID();
+  let object = validadrProducto(obj)
   try {
-    obj.id = randomUUID();
-    const object = validadrProducto(obj)
-    await chosenProdsContainer.save(object);
+    object = await chosenProdsContainer.save(object);
+    return object;
   } catch (err) {
     console.log(err)
-    throw new Error('Error al guardar el producto');
+    throw new Error({ errorMsg: err.message });
   }
 }
 

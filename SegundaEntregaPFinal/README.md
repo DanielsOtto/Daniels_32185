@@ -5,3 +5,9 @@ npm i express
 (npm i express-handlebars)
 agregar en el archivo package.json
 --- "type": "module",
+
+MongoDB
+npm i mongodb
+
+FireStore
+npm i firebase-admin
