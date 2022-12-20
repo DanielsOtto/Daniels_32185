@@ -25,6 +25,6 @@ export const RUTA = './data/products.txt';
 export const CART_ROUT = './data/cart.txt';
 
 // PERSISTENCIA
-// export const PERSISTENCIA = 'mongodb';
+export const PERSISTENCIA = 'mongodb';
 // export const PERSISTENCIA = 'firestore';
-export const PERSISTENCIA = 'fs';
+// export const PERSISTENCIA = 'fs';
