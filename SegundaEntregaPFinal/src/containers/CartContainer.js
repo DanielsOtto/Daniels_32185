@@ -20,14 +20,9 @@ export class CartContainer {
   //   }
   // }
 
-  async save(object) {
-    let array = [];
+  async save(object) { //--modif
     try {
-      array = await this.getAll()
-      if (object) {
-        array.push(object)
-      }
-      await fs.promises.writeFile(this.#file, JSON.stringify(array));
+      await fs.promises.writeFile(this.#file, JSON.stringify(object));
       return object;
     } catch (err) {
       console.log(err);
@@ -35,17 +30,12 @@ export class CartContainer {
     }
   }
 
-  async updateById(cart, object) {
+  async updateById(cart, objProd) {
     try {
-      // console.log(cart)
-      const array = await this.getAll();
-      for (let obj of array) {
-        // console.log(array)
-
-        if (obj.id === cart.id) {
-          obj.products.push(object);
-          await fs.promises.writeFile(this.#file, JSON.stringify(obj));
-        }
+      const obCart = await this.getAll();
+      if (obCart.id === cart.id) {
+        obCart.products.push(objProd);
+        await fs.promises.writeFile(this.#file, JSON.stringify(obCart));
       }
     } catch (err) {
       throw new Error({ errorMessage: err.message });
@@ -60,26 +50,12 @@ export class CartContainer {
     }
   }
 
-  async deleteAll(id) { // borra todos los elementos de un carrito
-    try {
-      const array = await this.getAll();
-      for (const object of array) {
-        if (object.id === id) {
-          object.products = [];
-          await fs.promises.writeFile(this.#file, JSON.stringify(object));
-        }
-      }
-    } catch (err) {
-      throw new Error({ errorMessage: err.message });
-    }
-  }
 
-  async getById(id) { // obtiene los productos de un carrito -- aca me esta dando null
+  async getById(id) { // si el ID coincide devuelve el carrito -- correcto
     try {
-      const array = await this.getAll();
-      const searchObject = array.find(obj => obj.id === id);
-      if (searchObject) {
-        return searchObject;
+      const object = await this.getAll();
+      if (object.id === id) {
+        return object;
       }
       return null;
     } catch (err) {
@@ -87,17 +63,32 @@ export class CartContainer {
     }
   }
 
-  async deleteById(idCart, idProd) { //metodo correcto
+  // async deleteAll(id) { // borra todos los elementos de un carrito -- modif
+  //   try {
+  //     const object = await this.getAll();
+
+  //     if (object.id === id) {
+  //       object.products = [];
+  //       await fs.promises.writeFile(this.#file, JSON.stringify(object));
+  //     }
+  //   } catch (err) {
+  //     throw new Error({ errorMessage: err.message });
+  //   }
+  // }
+
+  async deleteById(idCart, idProd) { //metodo correcto -- MAL
     try {
-      const array = await this.getAll();
-      for (const object of array) {
-        if (object.id === idCart) {
-          const searchObject = this.#cartObject.find(ele => ele.id === idProd);
-          const index = this.#cartObject.products.indexOf(searchObject);
-          if (index >= 0) {
-            this.#cartObject.products.splice(index, 1);
-          }
-          await fs.promises.writeFile(this.#file, JSON.stringify(this.#cartObject));
+      const object = await this.getAll();
+      if (object.id === idCart) {
+        const searchObject = object.products.find(ele => ele.id === idProd);
+        const index = object.products.indexOf(searchObject);
+        if (index >= 0) {
+          object.products.splice(index, 1);
+          await fs.promises.writeFile(this.#file, "[]");
+          // await fs.promises.writeFile(this.#file, JSON.stringify(object));
+          // WRITEFILE sobreescribe el archivo, yo crei que escribia encima del contenido
+          // en cambio, agrega contenido. Por este motivo primero vacio el archivo, para despues
+          // guardar el nuevo contenido
         }
       }
     } catch (err) {

@@ -23,10 +23,12 @@ export async function createCart() { // me encanta --bien
 
 //para incorporar productos al carrito, necesitamos le id del producto
 export async function saveProdsInCart(idProd, idCart) {
+  let newArray = [];
   try {
-    const product = await chosenProdsContainer.getById(idProd);
-    const cart = await chosenCartContainer.getById(idCart);
-    const newArray = cart.products.slice();
+    const product = await chosenProdsContainer.getById(idProd); // busca el producto
+    const cart = await chosenCartContainer.getById(idCart); // busca el carrito
+    if (!cart) throw new Error('El carrito no se encuentra')
+    newArray = cart.products.slice();
     newArray.push(product);
     const updateCart = {
       id: cart.id,
@@ -39,21 +41,6 @@ export async function saveProdsInCart(idProd, idCart) {
   }
 }
 
-// delete -- vaciar el carrito -- recibe id_carrito
-export async function deleteProdsInCart(idCart) {
-  try {
-    const cart = await chosenCartContainer.getById(idCart);
-    const updateCart = {
-      id: cart.id,
-      products: []
-    };
-    await chosenCartContainer.updateById(cart, updateCart);
-  } catch (err) {
-    console.log(err);
-    throw new Error('Error al borrar los productos de un carrito');
-  }
-}
-
 //para visualizar los productos que hay en el carrito
 export async function getAllProducts(idCart) {
   try {
@@ -62,6 +49,23 @@ export async function getAllProducts(idCart) {
   } catch (err) {
     console.log(err);
     throw new Error('Error al visualizar los productos del carrito');
+  }
+}
+
+// delete -- vaciar el carrito -- recibe id_carrito
+export async function deleteProdsInCart(idCart) {
+  try {
+    const cart = await chosenCartContainer.getById(idCart);
+    if (cart) { //agregado martes 20/12
+      const updateCart = {
+        id: cart.id,
+        products: []
+      };
+      await chosenCartContainer.updateById(cart, updateCart);
+    }
+  } catch (err) {
+    console.log(err);
+    throw new Error('Error al borrar los productos de un carrito');
   }
 }
 
