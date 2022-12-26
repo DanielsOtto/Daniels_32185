@@ -22,3 +22,9 @@ npm i mongodb
 FireBase
 
 npm i firebase-admin
+
+---
+
+FAKER
+
+npm i @faker-js/faker
