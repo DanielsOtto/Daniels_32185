@@ -17,7 +17,7 @@ export default class ContainerMysql {
 
   async getAll() {
     try {
-      return this.#client(this.#table).select(); // operacion select, nos devuelve todos los registros
+      return await this.#client(this.#table).select(); // operacion select, nos devuelve todos los registros
     } catch (error) {
       // throw new Error('Error en el metodo getAll')
       throw new Error(error);
