@@ -5,6 +5,8 @@ try {
   throw new Error('Error al crear el archivo products');
 }
 
+export const MONGO_CNS = 'mongodb+srv://coderhouse:coderhouse@cluster0.qiy9g8n.mongodb.net/sessions';
+
 export const MSG_PATH = './data/messages.txt';
 export const PATH = './data/products.txt';
 export const PERSISTENCIA = 'mysql';

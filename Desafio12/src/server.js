@@ -10,7 +10,7 @@ import { routerWebProducts } from './routers/routerWebProducts.js';
 // import { msgContainer } from './containers/MessagesContainer.js'; 
 import { messagesContainer } from './containers/DataContainer.js'; // PERSISTENCIA
 import { createMessagesTable } from './tables/createMessagesTable.js';
-import { nameMsgTable } from './config/config.js';
+import { MONGO_CNS, nameMsgTable } from './config/config.js';
 import { randomUUID } from 'crypto';
 
 export const app = express(); // lo exporto a main -- dejo de utilizarlo
@@ -19,6 +19,8 @@ export const app = express(); // lo exporto a main -- dejo de utilizarlo
 export const httpServer = createServer(app); // para sockets 
 const io = new Server(httpServer) // para sockets
 
+import session from 'express-session'; // para las sessions
+import MongoStore from 'connect-mongo'; // para las sessions
 
 // HANDLEBARS
 app.engine('handlebars', engine());
@@ -31,12 +33,31 @@ app.use(express.static('public'));
 app.use((req, res, next) => { req.io = io; next(); }); //este io es para productos
 // asi puedo utilizar la conexion IO en otros archivos.
 
+//Desafio 12 -- middleware session
+
+const mongoUrl = MONGO_CNS; // string correcta para conectarse a mongo atlas
+
+app.use(session({ // inicializamos el session
+  store: MongoStore.create({ mongoUrl, ttl: 60 }),
+  secret: 'monosilabos',
+  resave: false,
+  saveUnitizialized: false
+  // cookies: {
+  //   maxAge: 40000 // milisegundos
+  // }
+}));
+
+
 //RUTAS
 // web
 app.use('/', routerWebProducts);
 
 //rest  (las rutas son en plural)
 app.use('/api/products', routerApiProds);
+
+// PRIMERO CARGAR XAMMP
+//DESPUES SQL
+// despues la ruta
 
 
 // SOCKETS

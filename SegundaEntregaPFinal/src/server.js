@@ -9,6 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //RUTAS
 app.use('/api/products', routerApiProds);
-app.use('/api/shoppingcart', routerApiCart); //  faltan los middleware
+app.use('/api/shoppingcart', routerApiCart);
+
 // app.all('*',);
 

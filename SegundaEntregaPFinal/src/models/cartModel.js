@@ -78,6 +78,8 @@ export async function deleteOneProduct(idCart, idProd) {
       id: cart.id,
       products: array.slice()
     }
+    // estoy actualizando el arreglo del carrito para que no tenga elementos
+    // como hago para borrar el arreglo del carrito ?
     await chosenCartContainer.updateById(cart, newCart);
   } catch (err) {
     console.log(err);
