@@ -35,82 +35,67 @@ export async function recoverProducts(req, res) {
   }
 }
 
-
+//----------------------------------------
 // Desafio 12 -- Cookies and Sessions
 
-export function loggedInUser(req, res) {
-  try {
-    if (session.admin) {
-      res.render('formMain');
-    } else {
-      next();
-    }
-  } catch (err) {
-    console.log(err)
-    throw new Error('Error al loguearse')
-  }
-}
 
 export async function showLogin({ session }, res) {
   try {
-    if (session.admin) {
-      res.render('formMain');
-    } else {
-      res.render('loginMain');
-    }
+    session?.user ? res.render('formMain') : res.render('loginMain');
   } catch (err) {
     console.log(err)
     throw new Error(err)
   }
 }
 
-export async function register({ session, body }, res) {
+export async function register({ body, session }, res) {
   try {
-    console.log(body)
-    session.user = body.user;
+    session.user = body.name;
     session.admin = true;
-    if (session.user === 'choclo') {
+    console.log(session.user)
+    // res.send(session)
+    if (session.user === 'cleopatra') {
       res.status(200);
-      res.render('formMain');
+      res.render('formMain', { user: session.user });
     } else {
-      res.render('login');
+      res.render('loginMain');
     }
-
   } catch (err) {
     console.log(err)
     throw new Error('Se ha producido un error al registrarse');
   }
 }
 
-export async function validateUser({ session }, res, next) {
-  try {
-    if (!session.admin) {
-      res.status(401);
-    } else {
-      next();
-    }
-  } catch (err) {
-    console.log(err);
-  }
-}
+// export async function validateUser({ session }, res, next) {
+//   try {
+//     if (!session.admin) {
+//       res.status(401);
+//     } else {
+//       next();
+//     }
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
 
-export async function onlyAdmins(req, res) {
-  try {
-    res.status(200)
-    res.send('usted es un admin')
-  } catch (err) {
-    console.log(err)
-    throw new Error('Se ha producido un error al ingresar. Solo Admins.')
-  }
-}
+// export async function onlyAdmins(req, res) {
+//   try {
+//     res.status(200)
+//     res.send('usted es un admin')
+//   } catch (err) {
+//     console.log(err)
+//     throw new Error('Se ha producido un error al ingresar.')
+//   }
+// }  NO LO USO
 
 export async function logOff({ session }, res) {
   try {
+    console.log(session.user)
+    const user = session.user;
     session.destroy(err => {
-      if (!err) res.send('Logout ok!')
+      if (!err) res.render('logoutMain', { user: user })
       else res.send({ status: 'Logout ERROR', body: err })
     })
-
   } catch (err) {
     console.log(err)
     throw new Error('Se ha producido un error al desconectarse');

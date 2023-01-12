@@ -67,4 +67,3 @@ const generarPost = () => {
 socketChat.on('updateProducts', arrayProducts => {
   showProducts(arrayProducts);  //  va con el socket.emit del controlador
 }); // FORMA A  anda perfecto
-

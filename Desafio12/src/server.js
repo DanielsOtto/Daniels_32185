@@ -41,10 +41,8 @@ app.use(session({ // inicializamos el session
   store: MongoStore.create({ mongoUrl, ttl: 60 }),
   secret: 'monosilabos',
   resave: false,
-  saveUnitizialized: false
-  // cookies: {
-  //   maxAge: 40000 // milisegundos
-  // }
+  saveUnitizialized: false,
+  // cookies: { maxAge: 12000 },
 }));
 
 
