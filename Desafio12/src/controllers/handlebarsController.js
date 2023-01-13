@@ -51,10 +51,8 @@ export async function showLogin({ session }, res) {
 export async function register({ body, session }, res) {
   try {
     session.user = body.name;
-    session.admin = true;
-    console.log(session.user)
-    // res.send(session)
-    if (session.user === 'cleopatra') {
+    if ((session.user === 'cleopatra') || (session.user === 'julio') || (session.user === 'marco')) {
+      session.admin = true;
       res.status(200);
       res.render('formMain', { user: session.user });
     } else {

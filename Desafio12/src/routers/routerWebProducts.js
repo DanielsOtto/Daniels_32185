@@ -19,7 +19,6 @@ routerWebProducts.post('/products', fileOrTableExist, saveProduct);
 // Desafio 12
 routerWebProducts.get('/registro', showLogin)
 routerWebProducts.post('/registro', register); // register
-// routerWebProducts.get('/privado', validateUser, onlyAdmins); // onlyAdmins
 routerWebProducts.get('/desconectarse', logOff); // desconectarse
 
 
