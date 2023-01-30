@@ -94,29 +94,27 @@ passport.use('local-signin', new LocalStrategy({
     newUser.password = newUser.encryptPassword(password);
     console.log(newUser)
     await newUser.save();
-    done(null, newUser);
+    return done(null, newUser);
   }
 }));
 
-//este metodo es para loguearse
+//este metodo es para loguearse // el problema TIENE QUE ESTAR aca !!!
 passport.use('local-login', new LocalStrategy({
   usernameField: 'email',
   passwordField: 'password',
   passReqToCallback: true
 }, async (req, email, password, done) => {
-  const newUser = new SigninSchema();
   const user = await SigninSchema.findOne({ email: email });
   if (!user) {
-    done(null, false, req.flash('loginMessage', 'User not found.'));
-  } else {
-    console.log(!(await newUser.comparePassword(user, password))); // con await no da pending mintiendo da true
-    //diciendo la verdad se cuelga
-    if (await newUser.comparePassword(user, password)) {
-      done(null, false, req.flash('loginMessage', 'Incorrect password.'));
-    }
-    done(null, user);
+    return done(null, false, req.flash('loginMessage', 'User not found.'));
   }
-
+  console.log(!(await user.comparePassword(password))); // con await no da pending mintiendo da true
+  //diciendo la verdad se cuelga
+  if (!(await user.comparePassword(password))) {
+    console.log("saliste del compare")
+    return done(null, false, req.flash('loginMessage', 'Incorrect password.'));
+  }
+  return done(null, user);
 }));
 
 

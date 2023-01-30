@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 const { Schema } = mongoose;
 
@@ -16,12 +16,10 @@ userSchema.methods.encryptPassword = function (password) {
   return hash;
 };
 
-userSchema.methods.comparePassword = async function (user, password) {
-  console.log(password)
-  console.log(user.password)
-  const respuesta = await bcrypt.compare(password, user.password);
-  console.log(respuesta); // false
-  return respuesta;
+userSchema.methods.comparePassword = async function (password) { // no deberia recibir user
+  console.log(password) //que da ? 
+  console.log("llegaste al compare");
+  return await bcrypt.compare(password, this.password); // deberia ser this.password
   // return bcrypt.compareSync(password, this.password);
 };
 
