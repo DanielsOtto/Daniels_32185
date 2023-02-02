@@ -1,0 +1,31 @@
+{{! formulario de logueo desafio 13}}
+
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="text-uppercase text-center"> conectarse </h3>
+            </div>
+            <div class="card-body">
+                {{#if loginMessage }}
+                <div class="alert alert-danger">
+                    <p>
+                        {{this.loginMessage}}
+                    </p>
+                </div>
+                {{/if}}
+                <form action="/login" method="POST">
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="Ingrese su correo: ">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password"
+                            placeholder="Ingrese su contraseña: ">
+                    </div>
+
+                    <button class="btn btn-primary btn-block text-uppercase mt-4" type="submit"> conectarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
