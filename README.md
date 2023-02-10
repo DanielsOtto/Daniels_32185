@@ -1,5 +1,7 @@
 ﻿# Daniels_32185
 
+--- NPM2 y Nodemon instalados globalmente
+
 ~~ comandos
 npm init o npm init -y (acepta todo por defecto)
 npm i express
@@ -28,3 +30,20 @@ npm i firebase-admin
 FAKER
 
 npm i @faker-js/faker
+
+---
+
+Dotenv
+
+npm i dotenv
+
+---
+
+Bcrypt (en clase jsonwebtoken)
+
+npm i bcrypt o jsonwebtoken
+
+---
+
+-- Variables de entorno
+MODO=prod npm start/node src/main.js esta linea anda con gitBash

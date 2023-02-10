@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/home">LOGIN NODE PASSPORT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse tm-left" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" aria-current="page" href="/home">Home</a>
+                {{#if user}}
+                <a class="nav-link" href="/profile">perfil</a>
+                <a class="nav-link" href="/">formulario</a>
+                <a class="nav-link" href="/logout">desconectarse</a>
+                {{else}}
+                <a class="nav-link" href="/login">Conectarse</a>
+                <a class="nav-link" href="/signin">Registrarse</a>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</nav>
