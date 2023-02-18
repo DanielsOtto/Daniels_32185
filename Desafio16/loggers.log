@@ -1,0 +1,2 @@
+{"level":"info"[14/2/2023, 16:18:22],"pid":3536,"hostname":"DESKTOP-FRVMOR8","msg":"conectado al puerto 8080!"}
+{"level":"warn"[14/2/2023, 16:18:27],"pid":3536,"hostname":"DESKTOP-FRVMOR8","msg":"WARN -- Ruta accedida: /infoS, metodo utilizado: GET"}

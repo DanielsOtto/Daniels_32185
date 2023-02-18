@@ -13,7 +13,7 @@ if (MODO === 'cluster') {
   if (cluster.isPrimary) {
     cluster.schedulingPolicy = cluster.SCHED_RR;
 
-    const cantCpus = cpus().length - 4;
+    const cantCpus = cpus().length;
     console.log('modo de ejecucion: CLUSTER');
     console.log(`proceso primario: pid ${process.pid}`);
 
