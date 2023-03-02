@@ -245,7 +245,6 @@ export class Servidor {
   #server;
   constructor() {
     this.#app = express();
-
     // no anda aun asi
     this.#app.engine('handlebars', engine());
     this.#app.set('view engine', 'handlebars');// como se va a visualizar 
@@ -255,8 +254,7 @@ export class Servidor {
     this.#app.use(express.static('public'));
     this.#app.use((req, res, next) => { req.io = io; next(); }); //este io es para productos
     // asi puedo utilizar la conexion IO en otros archivos.
-    // middleware morgan
-    this.#app.use(morgan('dev'));
+    this.#app.use(morgan('dev'));    // middleware morgan
     // nos muestra mensajes en consola de los metodos usados
     this.#app.use(session({
       secret: 'duendeverde',
@@ -279,24 +277,32 @@ export class Servidor {
     this.#app.use('/', routerWebProducts);
   }
 
-  async connect({ port = 0 }) {
+  async connect({ puerto = 0 }) {
     return new Promise((resolve, reject) => {
-      this.#server = this.#app.listen(port, () => {
-        resolve({ port });
+      this.#server = this.#app.listen(puerto, () => {
+        resolve({ puerto });
       });
       this.#server.on('error', error => {
+        logger.fatal(`Error de conexión: ${error}`);
         reject(error);
       });
-
-
       //Desafio 12 -- middleware session // agregado desafio 15
       logIn(this.#app) // se conecta a la base de datos 
     });
-
-
   }
 
-
+  // async connect({ port = 0 }) {
+  //   return new Promise((resolve, reject) => {
+  //     this.#server = this.#app.listen(port, () => {
+  //       resolve({ port });
+  //     });
+  //     this.#server.on('error', error => {
+  //       reject(error);
+  //     });
+  //     //Desafio 12 -- middleware session // agregado desafio 15
+  //     logIn(this.#app) // se conecta a la base de datos 
+  //   });
+  // }
   async disconnect() {
     return new Promise((resolve, reject) => {
       this.#server.close(error => {
@@ -308,6 +314,5 @@ export class Servidor {
       });
     });
   }
-
 }
 

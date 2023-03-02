@@ -2,7 +2,7 @@
 import { productContainer } from '../containers/DataContainer.js';
 import { randomUUID } from 'crypto';
 // import { app } from '../server.js'; cambiado en clase 15
-import { app } from '../Servidor/Servidor.js'
+import { app } from '../server/Servidor.js'
 
 
 export async function showForm(req, res) {

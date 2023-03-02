@@ -5,7 +5,7 @@
 import cluster from 'cluster';
 import { cpus } from 'os';
 import { MODO, PORT } from './config/config.js';
-import crearServidor from './Servidor/index.js';
+import createServer from './server/index.js';
 
 cluster.schedulingPolicy = cluster.SCHED_RR;
 
@@ -27,12 +27,12 @@ if (MODO === 'cluster') {
     })
   } else {
     console.log(`proceso secundario - pid ${process.pid}`);
-    const server = new crearServidor();
+    const server = new createServer();
     await server.connect({ puerto: PORT });
     console.log(`conectado al puerto ${PORT}!`);
   }
 } else {
-  const server = new crearServidor();
+  const server = new createServer();
   await server.connect({ puerto: PORT });
   console.log(`conectado al puerto ${PORT}!`);
 }
