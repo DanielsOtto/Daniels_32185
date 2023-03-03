@@ -26,8 +26,7 @@ routerApiUser.post('/users', (req, res, next) => {
 });
 
 
-
-routerApiUser.get('/userinfo', valAuthenticate, userInfo); // nada
+routerApiUser.get('/userinfo', valAuthenticate, userInfo);
 
 // "Crea un nuevo usuario (c/s permisos adicionales)" { { SERVER } } /api/users", "method"  "POST"   // x body
 // "Obtener la información del usuario logueado", "url" "{{SERVER}}/api/userinfo", "method" "GET"  // user on

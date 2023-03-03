@@ -2,7 +2,8 @@ import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
 import { chosenUsersContainers as users } from "../dao/DataContainer.js";
 import { createAccount, findByEmail } from '../models/userModel.js';
-import { validatePassword } from '../middlewares/hashPass.js';
+import { validatePassword } from './hashPass.js';
+import { sendsMails } from './nodemailer.js';
 import { logger } from '../log/pino.js';
 
 
@@ -24,9 +25,6 @@ export default function passport_config() {
   }); // de esta forma passport busca en el navegador
 
 
-  // aca me registro, desde aca mando el mail al admin
-  // datos ? todo el objeto usuario
-  // asunto ? nuevo registro
   passport.use('local-signup', new LocalStrategy({
     usernameField: 'email',
     passwordField: 'password',
@@ -36,6 +34,35 @@ export default function passport_config() {
       if (await findByEmail(email)) throw new Error('Do you already have an account');
       const user = await createAccount(req.body);
       if (!user) throw new Error('Error creating user');
+      const { name, lastname, image, idCart, id } = req.body;
+      const message = {
+        from: 'Sender Name <admin@admin>',
+        to: 'Sender Name <admin@admin>',
+        subject: 'New Register ✔',
+        text: `New user register
+              User data:
+              Name: ${name}
+              Lastname: ${lastname}
+              Email: ${email}
+              Password: ${user.password}
+              Avatar: ${image}
+              ID_USER: ${user.id}
+              ID_Cart: ${user.idCart}
+              `,
+        html: `<h2>New Register</h2>
+                <p>User data:</p>
+                <ul>
+                  <li><strong>Name:</strong> ${name}</li>
+                  <li><strong>Lastname:</strong> ${lastname}</li>
+                  <li><strong>Email:</strong> ${email}</li>
+                  <li><strong>Password:</strong> ${user.password}</li>
+                  <li><strong>Avatar:</strong> ${image}</li>
+                  <li><strong>ID_USER:</strong> ${user.id}</li>
+                  <li><strong>ID_Cart:</strong> ${user.idCart}</li>
+                </ul>`
+      };
+
+      sendsMails.send(message);
       done(null, user);
     } catch (err) {
       logger.error(err.message);

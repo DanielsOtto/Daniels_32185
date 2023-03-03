@@ -36,6 +36,8 @@ async function getByIdProducts({ params }, res) {
 async function saveProduct({ body }, res) {
   try {
     const object = body;
+    delete object.email;
+    delete object.password;
     const result = await saveProds(object); // result muestra objeto vacio -- faltaba await
     res.status(201).json(result);
   } catch (err) {

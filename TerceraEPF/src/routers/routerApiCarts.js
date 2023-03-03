@@ -2,7 +2,8 @@ import {
     addProducts,
     cleanCart,
     showProducts,
-    deleteOneProdCart
+    deleteOneProdCart,
+    buyItems
 } from "../controllers/controllersCart.js";
 import { Router } from "express";
 const routerApiCart = Router();
@@ -17,6 +18,6 @@ routerApiCart.delete('/:id_prod', deleteOneProdCart);
 // "Quitar producto del carrito", "{{SERVER}}/api/shoppingcartproducts/{{PRODUCT_ID}}", "method", "DELETE"
 routerApiCart.delete('/', cleanCart);
 // "Vaciar carrito", "{{SERVER}}/api/shoppingcartproducts", "method", "DELETE"
-
-
+routerApiCart.post('/buy', buyItems);
+// "Comprar items", "{{SERVER}}//api/shoppingcartproducts/buy", "method", "POST" // no recibe nada
 export default routerApiCart;

@@ -1,0 +1,3 @@
+{"level":"warn"[3/3/2023, 15:05:35],"pid":10972,"hostname":"DESKTOP-FRVMOR8","prodsTotal":1,"products":[{"name":"promesa","price":"123","id":"b6954ac0-f77d-4a7b-bf18-e930f614628a","cant":3}]}
+{"level":"warn"[3/3/2023, 15:07:11],"pid":7120,"hostname":"DESKTOP-FRVMOR8","prodsTotal":3,"products":[{"name":"promesa","price":"123","id":"b6954ac0-f77d-4a7b-bf18-e930f614628a","cant":3}]}
+{"level":"warn"[3/3/2023, 15:11:46],"pid":15864,"hostname":"DESKTOP-FRVMOR8","prodsTotal":10,"products":[{"name":"promesa","price":"123","id":"b6954ac0-f77d-4a7b-bf18-e930f614628a","cant":3},{"name":"again","price":"1010","id":"1ca19e50-8bb6-414b-b2d8-59e8fb8cde19","cant":5},{"name":"bola","price":"55","id":"a7879be0-b3d8-43b6-a8d3-a5df9c12627b","cant":2}]}

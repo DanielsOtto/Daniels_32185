@@ -3,7 +3,6 @@ import { findByEmail } from '../models/userModel.js';
 import { SECRET } from '../config/config.js';
 import { logger } from '../log/pino.js';
 
-// NO ES UN MIDDLEWARE -- afecta a passport
 
 export function encryptPassword(password) {
   return bcrypt.hashSync(password, SECRET);

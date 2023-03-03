@@ -2,7 +2,7 @@
 import { randomUUID } from 'crypto';
 
 import { chosenUsersContainers as users } from "../dao/DataContainer.js";
-import { encryptPassword } from "../middlewares/hashPass.js";
+import { encryptPassword } from "../utils/hashPass.js";
 import { createCart } from './cartModel.js';
 import { logger } from "../log/pino.js";
 

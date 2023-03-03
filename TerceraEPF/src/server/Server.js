@@ -4,14 +4,13 @@ import session from 'express-session';
 import passport from 'passport';
 import morgan from 'morgan';
 
+import { CNX_sessions, SESSION_CODE } from '../config/config.js';
 import routerApiProds from '../routers/routerApiProducts.js';
-import passport_config from '../passport/passport-local.js';
 import valAuthenticate from '../middlewares/authLogin.js';
+import passport_config from '../utils/passport-local.js';
 import routerApiCart from '../routers/routerApiCarts.js';
-// import initializeSession from '../sessions/logIn.js'; // para las sessions
 import routerApiUser from '../routers/routerUser.js';
 import routerApiLogs from '../routers/routerLogs.js';
-import { CNX_sessions } from '../config/config.js';
 import notFound from '../middlewares/notFound.js';
 import { logger } from '../log/pino.js';
 
@@ -29,8 +28,8 @@ export default class Server {
     this.#app.use(express.urlencoded({ extended: true }));
     this.#app.use(morgan('dev'));//nos muestra mensajes en consola de los metodos usados
 
-    this.#app.use(session({
-      secret: 'estaclavedeberiadeestarenenv',
+    this.#app.use(session({ //
+      secret: SESSION_CODE,
       resave: false, // cuando es true, en cada peticion, aunque la session no haya sido modificada siempre se va a guardar 
       saveUninitialized: false, //cuando es true, si inicializamos una sesion en una peticion y no guardamos nada, igual se va a guardar
       store: new MongoStore({ mongoUrl: CNX_sessions })
@@ -62,16 +61,17 @@ export default class Server {
     });
   }
 
-  // async disconnect() {  NO SE SI ANDA 
-  //   return new Promise((resolve, reject) => {
-  //     this.#server.close(error => {
-  //       if (error) {
-  //         reject(error);
-  //       } else {
-  //         resolve(true);
-  //       }
-  //     });
-  //   });
-  // }
+  async disconnect() {
+    return new Promise((resolve, reject) => {
+      this.#server.close(error => {
+        if (error) {
+          logger.error(`Error de conexión: ${error}`);
+          reject(error);
+        } else {
+          resolve(true);
+        }
+      });
+    });
+  }
 }
 

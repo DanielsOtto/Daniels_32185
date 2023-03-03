@@ -1,4 +1,5 @@
 import { findByEmail } from '../models/userModel.js';
+import { sendsMails } from '../utils/nodemailer.js';
 import { logger } from '../log/pino.js';
 import {
   createCart,
@@ -104,5 +105,102 @@ async function cleanCart({ body }, res) { // ANDA -- bien
   res.sendStatus(200);
 }
 
+async function createRegisterProds(items) {
+  const register = {
+    prodsTotal: 0,
+    products: []
+  };
+  try {
+    const prodMap = new Map();
+    for (const item of items) {
+      if (prodMap.has(item.name)) {
+        prodMap.get(item.name).cant++;
+      } else {
+        const product = {
+          name: item.name,
+          price: item.price,
+          id: item.id,
+          cant: 1
+        };
+        prodMap.set(item.name, product);
+      }
+    }
+    register.prodsTotal = items.length;
+    register.products = Array.from(prodMap.values());
+    return register;
+  } catch (err) {
+    logger.error(err);
+    throw new Error(err.message);
+  }
+}
+
+
+export async function buyItems({ body }, res) {
+  const { email } = body;
+  try {
+    const user = await returnUser(email);
+    const { idCart } = user;
+    const prods = await getAllProducts(idCart);
+    if (prods.length === 0) return res.status(405).json({ message: 'Your cart is empty' });
+    const register = await createRegisterProds(prods);
+
+    await deleteProdsInCart(idCart);
+    const messageToAdmin = {
+      from: 'Sender Name <admin@admin>',
+      to: 'Sender Name <admin@admin>',
+      subject: 'New Sale ✔',
+      text: `NEW SALE
+            SALE data:
+            Name buyer: ${user.name}
+            Lastname buyer: ${user.lastname}
+            Email buyer: ${email}
+            ID buyer: ${user.id}
+            Total products: ${register.prodsTotal}
+            Register: ${JSON.stringify(register, null, 2)}
+            `,
+      html: `<h1>NEW SALE</h1>
+              <h3>SALE data:</h3>
+            <ul>
+              <li><strong>Name buyer:</strong> ${user.name}</li>
+              <li><strong>Lastname buyer:</strong> ${user.lastname}</li>
+              <li><strong>Email buyer:</strong> ${email}</li>
+              <li><strong>ID buyer:</strong> ${user.id}</li>
+              <li><strong>Total products:</strong> ${register.prodsTotal}</li>
+              <li><strong>Register:</strong> ${JSON.stringify(register, null, 2)}</li>
+            </ul>
+            `
+    };
+
+    const messageToBuyer = {
+      from: 'Sender Name <admin@admin>',
+      to: `Sender Name <${email}>`,
+      subject: 'Purchase processed ✔',
+      text: `We have received your purchase, we will contact you shortly for delivery.
+            Purchase details:
+            Email buyer: ${email}
+            Total products: ${register.prodsTotal}
+            Register: ${JSON.stringify(register, null, 2)}
+            Thanks for your purchase`,
+      html: `
+            <p>We have received your purchase, we will contact you shortly for delivery.</p>
+              <h5>Purchase details:</h5>
+            <ul>
+              <li><strong>Email buyer:</strong> ${email}</li>
+              <li><strong>Total products:</strong> ${register.prodsTotal}</li>
+              <li><strong>Register:</strong> ${JSON.stringify(register, null, 2)}</li>
+            </ul>
+            <p><strong>Thanks for your purchase</strong></p>
+            `
+    };
+    sendsMails.send(messageToAdmin);
+    sendsMails.send(messageToBuyer);
+
+
+    res.status(201).json({ message: 'purchase received' });
+  } catch (err) {
+    logger.error(err.message);
+    throw new Error(err.message);
+  }
+}
 
 export { createC, addProducts, cleanCart, showProducts };
