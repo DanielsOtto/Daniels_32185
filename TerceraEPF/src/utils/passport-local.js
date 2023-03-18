@@ -1,6 +1,6 @@
 import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
-import { chosenUsersContainers as users } from "../dao/DataContainer.js";
+import { chosenUsersContainers as users } from "../dataAccess/DataContainer.js";
 import { createAccount, findByEmail } from '../models/userModel.js';
 import { validatePassword } from './hashPass.js';
 import { sendsMails } from './nodemailer.js';
@@ -33,8 +33,7 @@ export default function passport_config() {
     try {
       if (await findByEmail(email)) throw new Error('Do you already have an account');
       const user = await createAccount(req.body);
-      if (!user) throw new Error('Error creating user');
-      const { name, lastname, image, idCart, id } = req.body;
+      const { name, lastname, image } = req.body;
       const message = {
         from: 'Sender Name <admin@admin>',
         to: 'Sender Name <admin@admin>',
@@ -78,10 +77,13 @@ export default function passport_config() {
   }, async ({ body }, email, password, done) => {
     try {
       const user = await findByEmail(email); //BUSCA AL USUARIO MEDIANTE EL ID
-      if (!user || !validatePassword(body)) {
-        return done(null, false);
-      }
+      // if (!user || !validatePassword(body)) {
+      //   return done(null, false);
+      // }
 
+      if (!validatePassword(body)) {
+        return done(null, false);
+      }// con el nuevo sistema
       return done(null, user);
     } catch (err) {
       logger.error(err.message)

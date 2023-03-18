@@ -1,5 +1,5 @@
 import { randomUUID } from 'crypto';
-import { chosenCartContainer, chosenProdsContainer } from '../dao/DataContainer.js';
+import { chosenCartContainer, chosenProdsContainer } from '../dataAccess/DataContainer.js';
 import { logger } from '../log/pino.js';
 
 // ---- CART MODEL ES USADO POR EL CONTROLADOR  ---- 
@@ -14,10 +14,11 @@ export async function createCart() { // me encanta --bien
       products: []
     }
     const saved = await chosenCartContainer.save(cart);
+    if (!saved) throw new Error('Error creating the cart.')
     return saved.id;
   } catch (err) {
     logger.error(err);
-    throw new Error('Error al crear el carrito');
+    throw err;
   }
 }
 
@@ -27,7 +28,6 @@ export async function saveProdsInCart(idCart, idProd) { // REVISADO --- JOYA
   try {
     const product = await chosenProdsContainer.getById(idProd); // busca el producto
     const cart = await chosenCartContainer.getById(idCart); // busca el carrito
-    if (!cart) throw new Error('El carrito no se encuentra')
 
     if (cart.products.length > 0) newArray = cart.products.slice();
 
@@ -39,7 +39,7 @@ export async function saveProdsInCart(idCart, idProd) { // REVISADO --- JOYA
     await chosenCartContainer.updateByObject(cart, updateCart); // andara asi ? NO
   } catch (err) {
     logger.error(err);
-    throw new Error('Error al guardar productos en el carrito');
+    throw err;
   }
 }
 
@@ -50,10 +50,9 @@ export async function getAllProducts(idCart) {
     return cart.products;
   } catch (err) {
     logger.error(err);
-    throw new Error('Error al visualizar los productos del carrito');
+    throw err;
   }
 }
-
 
 // Eliminar un solo articulo del carrito, obtiene ambos ID por params
 export async function deleteOneProduct(idCart, idProd) {  // NO ANDA
@@ -74,7 +73,7 @@ export async function deleteOneProduct(idCart, idProd) {  // NO ANDA
     await chosenCartContainer.updateByObject(cart, newCart);
   } catch (err) {
     logger.error(err);
-    throw new Error(err.message);
+    throw err;
   }
 }
 
@@ -92,6 +91,6 @@ export async function deleteProdsInCart(idCart) {
     }
   } catch (err) {
     logger.error(err);
-    throw new Error('Error al borrar los productos de un carrito');
+    throw err;
   }
 }

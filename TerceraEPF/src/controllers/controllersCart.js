@@ -10,13 +10,9 @@ import {
 } from '../models/cartModel.js';
 
 
-// MIDDLEWARE QUE DEVUELVA EL USUARIO ?? 
 async function returnUser(email) {
   try {
-    const user = await findByEmail(email);
-    if (!user) throw new Error('An error ocurred, user not found');
-
-    return user;
+    return await findByEmail(email);
   } catch (err) {
     logger.error(err.message);
     throw new Error(err.message);
@@ -27,9 +23,8 @@ async function returnUser(email) {
 // y devuelve su id
 async function createC(req, res) { //anda perfecto
   try {
-    const id = await createCart();
-    res.status(201);
-    res.json({ 'Cart ID': id });
+    console.log("createC controllers");
+    return await createCart();
   } catch (err) {
     logger.error(err.message);
     throw new Error('Error creating cart');
@@ -67,7 +62,7 @@ async function showProducts({ body }, res) { // PROBADO -- ANDA
     }
   } catch (err) {
     logger.error(err.message);
-    throw new Error('Error listing cart Products');
+    throw new Error(err.message);
   }
 }
 
@@ -196,7 +191,7 @@ export async function buyItems({ body }, res) {
     sendsMails.send(messageToBuyer);
 
 
-    res.status(201).json({ message: 'purchase received' });
+    return res.status(201).json({ message: 'purchase received' });
   } catch (err) {
     logger.error(err.message);
     throw new Error(err.message);

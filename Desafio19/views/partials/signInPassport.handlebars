@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="text-uppercase text-center"> registrarse </h3>
+            </div>
+            <div class="card-body">
+                {{#if signinMessage}}
+                <div class="alert alert-danger">
+                    <p>
+                        {{this.signinMessage}}
+                    </p>
+                </div>
+                {{/if}}
+                <form action="/signin" method="POST">
+                    <div class="form-group">
+                        <input class="form-control" type="string" name="name" placeholder="Ingrese su nombre: ">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="Ingrese su correo: ">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password"
+                            placeholder="Ingrese su contraseña: ">
+                    </div>
+                    <button class="btn btn-success btn-block text-uppercase mt-4" type="submit"> registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

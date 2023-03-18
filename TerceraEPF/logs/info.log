@@ -1918,3 +1918,1058 @@
 {"level":"info"[3/3/2023, 16:58:58],"pid":18384,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 18384 conectado al puerto 8080 "}
 {"level":"info"[3/3/2023, 16:58:58],"pid":15768,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15768 conectado al puerto 8080 "}
 {"level":"info"[3/3/2023, 16:58:58],"pid":13200,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13200 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:32:37],"pid":5804,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[4/3/2023, 11:32:37],"pid":5804,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 5804"}
+{"level":"info"[4/3/2023, 11:32:40],"pid":8660,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8660 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:32:40],"pid":13128,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13128 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:32:40],"pid":11596,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11596 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:32:40],"pid":13852,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13852 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:32:40],"pid":8636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8636 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:32:40],"pid":9848,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9848 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:32:40],"pid":15128,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15128 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:32:41],"pid":11068,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11068 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:33:20],"pid":5804,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13852)"}
+{"level":"info"[4/3/2023, 11:33:22],"pid":15276,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[4/3/2023, 11:33:22],"pid":15276,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 15276"}
+{"level":"info"[4/3/2023, 11:33:26],"pid":4080,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4080 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:33:26],"pid":9352,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9352 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:33:26],"pid":13212,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13212 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:33:26],"pid":12140,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12140 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:33:26],"pid":14948,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14948 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:33:26],"pid":15040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15040 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:33:26],"pid":3660,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3660 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:33:26],"pid":1888,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1888 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:34:27],"pid":13024,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[4/3/2023, 11:34:27],"pid":13024,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 13024"}
+{"level":"info"[4/3/2023, 11:34:30],"pid":10612,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10612 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:34:30],"pid":12956,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12956 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:34:30],"pid":14584,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14584 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:34:30],"pid":12644,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12644 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:34:30],"pid":8156,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8156 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:34:30],"pid":14204,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14204 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:34:30],"pid":7992,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7992 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:34:30],"pid":1236,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1236 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:36:08],"pid":13024,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7992)"}
+{"level":"info"[4/3/2023, 11:36:10],"pid":5452,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[4/3/2023, 11:36:10],"pid":5452,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 5452"}
+{"level":"info"[4/3/2023, 11:36:13],"pid":12116,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12116 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:36:13],"pid":13208,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13208 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:36:13],"pid":3696,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3696 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:36:13],"pid":11684,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11684 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:36:13],"pid":13100,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13100 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:36:13],"pid":9864,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9864 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:36:13],"pid":8204,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8204 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:36:13],"pid":1088,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1088 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:37:43],"pid":5452,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8204)"}
+{"level":"info"[4/3/2023, 11:37:45],"pid":7036,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[4/3/2023, 11:37:45],"pid":7036,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 7036"}
+{"level":"info"[4/3/2023, 11:37:48],"pid":7088,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7088 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:37:48],"pid":6804,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6804 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:37:48],"pid":11856,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11856 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:37:48],"pid":10620,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10620 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:37:48],"pid":13388,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13388 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:37:48],"pid":13424,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13424 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:37:48],"pid":12224,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12224 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:37:48],"pid":15080,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15080 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:40:54],"pid":9328,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[4/3/2023, 11:40:54],"pid":9328,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 9328"}
+{"level":"info"[4/3/2023, 11:40:57],"pid":6104,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6104 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:40:57],"pid":692,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 692 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:40:57],"pid":6712,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6712 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:40:57],"pid":11712,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11712 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:40:57],"pid":3044,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3044 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:40:57],"pid":3204,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3204 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:40:57],"pid":7716,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7716 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:40:57],"pid":7636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7636 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:42:41],"pid":9328,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 692)"}
+{"level":"info"[4/3/2023, 11:42:42],"pid":1348,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[4/3/2023, 11:42:42],"pid":1348,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 1348"}
+{"level":"info"[4/3/2023, 11:42:45],"pid":12224,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12224 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:42:45],"pid":6548,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6548 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:42:45],"pid":3960,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3960 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:42:45],"pid":3816,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3816 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:42:45],"pid":15208,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15208 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:42:45],"pid":1236,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1236 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:42:45],"pid":2444,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2444 conectado al puerto 8080 "}
+{"level":"info"[4/3/2023, 11:42:45],"pid":9824,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9824 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:07],"pid":8756,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:37:07],"pid":8756,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 8756"}
+{"level":"info"[5/3/2023, 15:37:10],"pid":8892,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8892 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:10],"pid":8412,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8412 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:10],"pid":3504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3504 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:10],"pid":16100,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16100 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:10],"pid":8656,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8656 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:10],"pid":1536,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1536 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:10],"pid":14096,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14096 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:10],"pid":9376,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9376 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:37:55],"pid":8756,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8656)"}
+{"level":"info"[5/3/2023, 15:37:56],"pid":3720,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:37:56],"pid":3720,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 3720"}
+{"level":"info"[5/3/2023, 15:38:00],"pid":7676,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7676 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:00],"pid":14344,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14344 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:00],"pid":10608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10608 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:00],"pid":800,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 800 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:00],"pid":10184,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10184 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:00],"pid":15372,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15372 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:00],"pid":7916,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7916 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:00],"pid":12272,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12272 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:48],"pid":14504,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:38:48],"pid":14504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 14504"}
+{"level":"info"[5/3/2023, 15:38:50],"pid":15692,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15692 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:50],"pid":3616,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3616 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:50],"pid":7200,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7200 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:50],"pid":13612,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13612 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:50],"pid":14696,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14696 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:50],"pid":16292,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16292 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:50],"pid":4376,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4376 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:38:50],"pid":5840,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5840 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:39:44],"pid":14504,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14696)"}
+{"level":"info"[5/3/2023, 15:39:46],"pid":10540,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:39:46],"pid":10540,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 10540"}
+{"level":"info"[5/3/2023, 15:39:49],"pid":12544,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12544 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:39:49],"pid":10592,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10592 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:39:49],"pid":9040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9040 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:39:49],"pid":13584,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13584 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:39:49],"pid":12688,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12688 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:39:49],"pid":14080,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14080 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:39:49],"pid":13404,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13404 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:39:49],"pid":10500,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10500 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:40:01],"pid":12544,"hostname":"DESKTOP-FRVMOR8","id":"f2b2164a-2348-4575-bd93-bab27b73797e","products":[],"_id":"6404e20138050acd350519ca"}
+{"level":"info"[5/3/2023, 15:40:37],"pid":10540,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10592)"}
+{"level":"info"[5/3/2023, 15:40:39],"pid":14988,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:40:39],"pid":14988,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 14988"}
+{"level":"info"[5/3/2023, 15:40:41],"pid":10284,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10284 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:40:41],"pid":8372,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8372 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:40:41],"pid":12636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12636 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:40:41],"pid":15340,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15340 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:40:41],"pid":11912,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11912 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:40:41],"pid":12284,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12284 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:40:41],"pid":14844,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14844 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:40:42],"pid":11920,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11920 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:41:13],"pid":14988,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12284)"}
+{"level":"info"[5/3/2023, 15:41:14],"pid":16060,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:41:14],"pid":16060,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 16060"}
+{"level":"info"[5/3/2023, 15:41:17],"pid":8756,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8756 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:41:17],"pid":16100,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16100 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:41:17],"pid":14128,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14128 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:41:17],"pid":7640,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7640 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:41:17],"pid":8820,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8820 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:41:17],"pid":15044,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15044 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:41:17],"pid":276,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 276 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:41:17],"pid":15752,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15752 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:42:57],"pid":7636,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:42:57],"pid":7636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 7636"}
+{"level":"info"[5/3/2023, 15:43:00],"pid":5888,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5888 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:00],"pid":3516,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3516 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:00],"pid":16216,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16216 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:00],"pid":12316,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12316 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:00],"pid":15760,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15760 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:00],"pid":3128,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3128 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:00],"pid":3776,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3776 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:00],"pid":15448,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15448 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:40],"pid":7636,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15448)"}
+{"level":"info"[5/3/2023, 15:43:42],"pid":5420,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:43:42],"pid":5420,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 5420"}
+{"level":"info"[5/3/2023, 15:43:44],"pid":13968,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13968 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:44],"pid":7860,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7860 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:44],"pid":11592,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11592 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:44],"pid":4388,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4388 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:44],"pid":1900,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1900 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:44],"pid":9560,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9560 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:44],"pid":2504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2504 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:43:44],"pid":2612,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2612 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:44:06],"pid":3608,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:44:06],"pid":3608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 3608"}
+{"level":"info"[5/3/2023, 15:44:08],"pid":13104,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13104 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:44:09],"pid":8520,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8520 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:44:09],"pid":7684,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7684 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:44:09],"pid":15412,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15412 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:44:09],"pid":4808,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4808 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:44:09],"pid":10480,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10480 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:44:09],"pid":12980,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12980 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:44:09],"pid":6940,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6940 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:46:11],"pid":3608,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13104)"}
+{"level":"info"[5/3/2023, 15:46:12],"pid":13452,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:46:12],"pid":13452,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 13452"}
+{"level":"info"[5/3/2023, 15:46:15],"pid":15424,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15424 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:46:15],"pid":14952,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14952 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:46:15],"pid":1948,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1948 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:46:15],"pid":10472,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10472 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:46:15],"pid":16224,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16224 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:46:15],"pid":1444,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1444 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:46:15],"pid":3304,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3304 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:46:15],"pid":1696,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1696 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:47:00],"pid":13452,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10472)"}
+{"level":"info"[5/3/2023, 15:47:02],"pid":10708,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:47:02],"pid":10708,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 10708"}
+{"level":"info"[5/3/2023, 15:47:04],"pid":4416,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4416 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:47:04],"pid":14272,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14272 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:47:04],"pid":13608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13608 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:47:04],"pid":16048,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16048 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:47:04],"pid":10144,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10144 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:47:04],"pid":13920,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13920 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:47:04],"pid":13764,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13764 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:47:04],"pid":14740,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14740 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:49:53],"pid":10708,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13608)"}
+{"level":"info"[5/3/2023, 15:49:55],"pid":1352,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:49:55],"pid":1352,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 1352"}
+{"level":"info"[5/3/2023, 15:49:58],"pid":11076,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11076 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:49:58],"pid":6272,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6272 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:49:58],"pid":10540,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10540 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:49:58],"pid":8820,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8820 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:49:58],"pid":12620,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12620 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:49:58],"pid":11864,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11864 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:49:58],"pid":7904,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7904 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:49:58],"pid":7628,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7628 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:51:14],"pid":2812,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:51:14],"pid":2812,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 2812"}
+{"level":"info"[5/3/2023, 15:51:16],"pid":10684,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10684 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:51:16],"pid":15736,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15736 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:51:16],"pid":12272,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12272 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:51:16],"pid":4808,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4808 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:51:16],"pid":10300,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10300 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:51:16],"pid":1420,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1420 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:51:16],"pid":13768,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13768 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:51:16],"pid":3380,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3380 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:52:46],"pid":2812,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12272)"}
+{"level":"info"[5/3/2023, 15:52:47],"pid":4912,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:52:47],"pid":4912,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4912"}
+{"level":"info"[5/3/2023, 15:52:50],"pid":11740,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11740 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:52:50],"pid":11060,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11060 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:52:50],"pid":9340,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9340 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:52:50],"pid":1188,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1188 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:52:50],"pid":10724,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10724 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:52:50],"pid":10692,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10692 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:52:50],"pid":6256,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6256 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:52:50],"pid":3676,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3676 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:53:20],"pid":7436,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:53:20],"pid":7436,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 7436"}
+{"level":"info"[5/3/2023, 15:53:22],"pid":12944,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12944 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:53:22],"pid":14668,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14668 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:53:22],"pid":11044,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11044 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:53:22],"pid":14592,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14592 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:53:22],"pid":4184,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4184 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:53:22],"pid":13608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13608 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:53:22],"pid":1404,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1404 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:53:22],"pid":4400,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4400 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:55:25],"pid":7436,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 4400)"}
+{"level":"info"[5/3/2023, 15:55:27],"pid":4036,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:55:27],"pid":4036,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4036"}
+{"level":"info"[5/3/2023, 15:55:29],"pid":11244,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11244 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:55:29],"pid":12036,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12036 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:55:29],"pid":7040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7040 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:55:29],"pid":16368,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16368 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:55:29],"pid":5164,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5164 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:55:29],"pid":7832,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7832 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:55:29],"pid":12072,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12072 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:55:29],"pid":12260,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12260 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:58:50],"pid":4036,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12072)"}
+{"level":"info"[5/3/2023, 15:58:52],"pid":9832,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:58:52],"pid":9832,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 9832"}
+{"level":"info"[5/3/2023, 15:58:54],"pid":2388,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2388 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:58:54],"pid":6560,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6560 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:58:54],"pid":11760,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11760 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:58:54],"pid":13768,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13768 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:58:54],"pid":14596,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14596 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:58:54],"pid":3548,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3548 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:58:54],"pid":9700,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9700 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:58:55],"pid":2604,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2604 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:59:20],"pid":11232,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 15:59:20],"pid":11232,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 11232"}
+{"level":"info"[5/3/2023, 15:59:22],"pid":15092,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15092 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:59:22],"pid":13560,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13560 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:59:23],"pid":7392,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7392 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:59:23],"pid":13792,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13792 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:59:23],"pid":15588,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15588 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:59:23],"pid":8332,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8332 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:59:23],"pid":10116,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10116 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 15:59:23],"pid":7704,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7704 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:01:46],"pid":11232,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10116)"}
+{"level":"info"[5/3/2023, 16:01:47],"pid":16060,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:01:47],"pid":16060,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 16060"}
+{"level":"info"[5/3/2023, 16:01:50],"pid":8116,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8116 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:01:50],"pid":14116,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14116 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:01:50],"pid":8840,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8840 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:01:50],"pid":15716,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15716 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:01:50],"pid":5072,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5072 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:01:50],"pid":6476,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6476 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:01:50],"pid":2376,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2376 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:01:50],"pid":7472,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7472 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:07:51],"pid":16060,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2376)"}
+{"level":"info"[5/3/2023, 16:07:53],"pid":1480,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:07:53],"pid":1480,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 1480"}
+{"level":"info"[5/3/2023, 16:07:55],"pid":1192,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1192 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:07:55],"pid":11592,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11592 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:07:55],"pid":14944,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14944 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:07:55],"pid":9584,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9584 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:07:55],"pid":12316,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12316 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:07:55],"pid":9028,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9028 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:07:55],"pid":3428,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3428 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:07:55],"pid":2352,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2352 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:07],"pid":1480,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11592)"}
+{"level":"info"[5/3/2023, 16:08:09],"pid":2752,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:08:09],"pid":2752,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 2752"}
+{"level":"info"[5/3/2023, 16:08:11],"pid":7072,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7072 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:11],"pid":2880,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2880 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:11],"pid":11460,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11460 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:11],"pid":7912,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7912 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:11],"pid":3652,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3652 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:11],"pid":10740,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10740 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:11],"pid":14016,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14016 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:11],"pid":3448,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3448 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:08:56],"pid":2752,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11460)"}
+{"level":"info"[5/3/2023, 16:08:58],"pid":15780,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:08:58],"pid":15780,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 15780"}
+{"level":"info"[5/3/2023, 16:09:00],"pid":14712,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14712 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:00],"pid":15652,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15652 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:00],"pid":15904,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15904 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:00],"pid":3044,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3044 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:00],"pid":8936,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8936 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:00],"pid":12072,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12072 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:00],"pid":14396,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14396 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:00],"pid":3116,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3116 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:08],"pid":9964,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:09:08],"pid":9964,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 9964"}
+{"level":"info"[5/3/2023, 16:09:11],"pid":3552,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3552 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:11],"pid":912,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 912 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:11],"pid":1444,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1444 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:11],"pid":10000,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10000 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:11],"pid":9896,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9896 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:11],"pid":10464,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10464 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:11],"pid":6188,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6188 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:11],"pid":5876,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5876 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:20],"pid":15636,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:09:20],"pid":15636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 15636"}
+{"level":"info"[5/3/2023, 16:09:22],"pid":9312,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9312 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:22],"pid":1448,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1448 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:22],"pid":5588,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5588 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:22],"pid":16292,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16292 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:22],"pid":8896,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8896 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:22],"pid":3888,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3888 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:22],"pid":15712,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15712 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:22],"pid":5188,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5188 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:36],"pid":15636,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9312)"}
+{"level":"info"[5/3/2023, 16:09:37],"pid":13128,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:09:37],"pid":13128,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 13128"}
+{"level":"info"[5/3/2023, 16:09:40],"pid":7428,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7428 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:40],"pid":2184,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2184 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:40],"pid":5412,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5412 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:40],"pid":3256,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3256 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:40],"pid":7704,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7704 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:40],"pid":3536,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3536 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:40],"pid":8380,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8380 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:09:40],"pid":9520,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9520 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:11:07],"pid":13128,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7704)"}
+{"level":"info"[5/3/2023, 16:11:08],"pid":5184,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:11:08],"pid":5184,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 5184"}
+{"level":"info"[5/3/2023, 16:11:10],"pid":11220,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11220 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:11:10],"pid":7884,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7884 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:11:10],"pid":9028,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9028 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:11:10],"pid":9584,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9584 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:11:11],"pid":7752,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7752 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:11:11],"pid":5164,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5164 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:11:11],"pid":11380,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11380 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:11:11],"pid":1840,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1840 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:12:06],"pid":5184,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9028)"}
+{"level":"info"[5/3/2023, 16:12:13],"pid":3812,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:12:13],"pid":3812,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 3812"}
+{"level":"info"[5/3/2023, 16:12:15],"pid":11456,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11456 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:12:15],"pid":15636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15636 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:12:15],"pid":14416,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14416 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:12:15],"pid":12652,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12652 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:12:16],"pid":9220,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9220 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:12:16],"pid":15552,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15552 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:12:16],"pid":7072,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7072 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:12:16],"pid":6940,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6940 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:09],"pid":2312,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:15:09],"pid":2312,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 2312"}
+{"level":"info"[5/3/2023, 16:15:11],"pid":11280,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11280 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:11],"pid":4744,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4744 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:11],"pid":3504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3504 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:11],"pid":8108,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8108 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:11],"pid":10864,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10864 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:11],"pid":15232,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15232 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:11],"pid":7024,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7024 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:11],"pid":576,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 576 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:15:56],"pid":2312,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10864)"}
+{"level":"info"[5/3/2023, 16:15:57],"pid":8696,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:15:57],"pid":8696,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 8696"}
+{"level":"info"[5/3/2023, 16:16:00],"pid":14836,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14836 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:16:00],"pid":15032,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15032 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:16:00],"pid":5664,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5664 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:16:00],"pid":9844,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9844 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:16:00],"pid":13552,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13552 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:16:00],"pid":3740,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3740 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:16:00],"pid":1948,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1948 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:16:00],"pid":13272,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13272 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:19:30],"pid":8696,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13272)"}
+{"level":"info"[5/3/2023, 16:19:32],"pid":4204,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:19:32],"pid":4204,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4204"}
+{"level":"info"[5/3/2023, 16:19:35],"pid":10124,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10124 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:19:35],"pid":11112,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11112 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:19:35],"pid":16176,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16176 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:19:35],"pid":11712,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11712 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:19:35],"pid":12224,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12224 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:19:35],"pid":13164,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13164 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:19:35],"pid":15724,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15724 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:19:35],"pid":11896,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11896 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:00],"pid":15828,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:22:00],"pid":15828,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 15828"}
+{"level":"info"[5/3/2023, 16:22:03],"pid":10300,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10300 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:03],"pid":6076,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6076 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:03],"pid":9292,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9292 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:03],"pid":8708,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8708 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:03],"pid":14888,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14888 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:03],"pid":8956,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8956 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:03],"pid":2092,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2092 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:03],"pid":7380,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7380 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:11],"pid":15828,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10300)"}
+{"level":"info"[5/3/2023, 16:22:13],"pid":9376,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:22:13],"pid":9376,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 9376"}
+{"level":"info"[5/3/2023, 16:22:15],"pid":15616,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15616 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:15],"pid":13864,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13864 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:15],"pid":9740,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9740 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:15],"pid":15720,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15720 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:15],"pid":7664,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7664 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:15],"pid":852,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 852 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:16],"pid":3336,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3336 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:16],"pid":5104,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5104 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:27],"pid":9376,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 852)"}
+{"level":"info"[5/3/2023, 16:22:28],"pid":956,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:22:28],"pid":956,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 956"}
+{"level":"info"[5/3/2023, 16:22:31],"pid":4804,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4804 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:31],"pid":4328,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4328 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:31],"pid":14096,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14096 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:31],"pid":1372,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1372 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:31],"pid":652,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 652 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:31],"pid":11416,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11416 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:31],"pid":2792,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2792 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:22:31],"pid":4040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4040 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:41],"pid":956,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 652)"}
+{"level":"info"[5/3/2023, 16:23:42],"pid":9044,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:23:42],"pid":9044,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 9044"}
+{"level":"info"[5/3/2023, 16:23:45],"pid":7628,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7628 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:45],"pid":7424,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7424 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:45],"pid":16096,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16096 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:45],"pid":12752,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12752 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:45],"pid":16080,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16080 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:45],"pid":15084,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15084 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:45],"pid":5072,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5072 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:45],"pid":9608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9608 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:45],"pid":9044,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9608)"}
+{"level":"info"[5/3/2023, 16:23:47],"pid":10740,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:23:47],"pid":10740,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 10740"}
+{"level":"info"[5/3/2023, 16:23:50],"pid":16000,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16000 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:50],"pid":15904,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15904 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:50],"pid":15668,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15668 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:50],"pid":11776,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11776 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:50],"pid":8484,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8484 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:50],"pid":14828,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14828 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:50],"pid":14812,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14812 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:23:50],"pid":5708,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5708 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:24:01],"pid":10740,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14828)"}
+{"level":"info"[5/3/2023, 16:24:02],"pid":12000,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:24:02],"pid":12000,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 12000"}
+{"level":"info"[5/3/2023, 16:24:04],"pid":5956,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5956 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:24:04],"pid":940,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 940 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:24:04],"pid":10924,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10924 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:24:04],"pid":12256,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12256 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:24:05],"pid":15040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15040 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:24:05],"pid":15688,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15688 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:24:05],"pid":1972,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1972 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:24:05],"pid":9852,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9852 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:26:49],"pid":15112,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:26:49],"pid":15112,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 15112"}
+{"level":"info"[5/3/2023, 16:26:52],"pid":15476,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15476 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:26:52],"pid":8852,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8852 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:26:52],"pid":10136,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10136 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:26:52],"pid":8488,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8488 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:26:52],"pid":13648,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13648 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:26:52],"pid":11472,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11472 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:26:53],"pid":10032,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10032 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:26:53],"pid":16036,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16036 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:07],"pid":11436,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:27:07],"pid":11436,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 11436"}
+{"level":"info"[5/3/2023, 16:27:09],"pid":13500,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13500 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:09],"pid":13708,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13708 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:09],"pid":8984,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8984 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:09],"pid":8716,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8716 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:09],"pid":15616,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15616 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:09],"pid":15632,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15632 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:09],"pid":9276,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9276 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:09],"pid":13084,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13084 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:45],"pid":14668,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:27:45],"pid":14668,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 14668"}
+{"level":"info"[5/3/2023, 16:27:47],"pid":11408,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11408 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:47],"pid":6720,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6720 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:47],"pid":10932,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10932 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:47],"pid":6864,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6864 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:47],"pid":2808,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2808 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:47],"pid":15464,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15464 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:47],"pid":4600,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4600 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:27:47],"pid":12000,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12000 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:13],"pid":14628,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:29:13],"pid":14628,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 14628"}
+{"level":"info"[5/3/2023, 16:29:16],"pid":4412,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4412 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:16],"pid":5784,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5784 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:16],"pid":12116,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12116 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:16],"pid":8920,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8920 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:16],"pid":1480,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1480 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:16],"pid":9544,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9544 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:16],"pid":8864,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8864 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:16],"pid":9196,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9196 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:46],"pid":14628,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12116)"}
+{"level":"info"[5/3/2023, 16:29:47],"pid":1364,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:29:47],"pid":1364,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 1364"}
+{"level":"info"[5/3/2023, 16:29:50],"pid":6504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6504 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:50],"pid":2312,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2312 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:50],"pid":11356,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11356 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:50],"pid":11220,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11220 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:50],"pid":2708,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2708 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:50],"pid":11632,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11632 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:50],"pid":3304,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3304 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:29:50],"pid":9880,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9880 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:34:18],"pid":1364,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2312)"}
+{"level":"info"[5/3/2023, 16:34:20],"pid":12980,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:34:20],"pid":12980,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 12980"}
+{"level":"info"[5/3/2023, 16:34:22],"pid":9932,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9932 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:34:22],"pid":3204,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3204 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:34:22],"pid":2460,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2460 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:34:22],"pid":4984,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4984 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:34:22],"pid":14888,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14888 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:34:22],"pid":5000,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5000 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:34:22],"pid":9844,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9844 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:34:22],"pid":8380,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8380 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:48:16],"pid":12980,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8380)"}
+{"level":"info"[5/3/2023, 16:48:18],"pid":4372,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:48:18],"pid":4372,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4372"}
+{"level":"info"[5/3/2023, 16:48:21],"pid":3932,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3932 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:48:21],"pid":13500,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13500 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:48:21],"pid":3488,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3488 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:48:21],"pid":7716,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7716 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:48:21],"pid":16176,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16176 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:48:21],"pid":4856,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4856 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:48:21],"pid":14344,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14344 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:48:22],"pid":9560,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9560 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:03],"pid":4372,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3932)"}
+{"level":"info"[5/3/2023, 16:51:04],"pid":4504,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:51:04],"pid":4504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4504"}
+{"level":"info"[5/3/2023, 16:51:07],"pid":7704,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7704 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:07],"pid":12648,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12648 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:07],"pid":11840,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11840 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:07],"pid":14800,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14800 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:07],"pid":15164,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15164 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:07],"pid":9916,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9916 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:07],"pid":14828,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14828 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:07],"pid":11812,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11812 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:37],"pid":4504,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14828)"}
+{"level":"info"[5/3/2023, 16:51:38],"pid":9884,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:51:38],"pid":9884,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 9884"}
+{"level":"info"[5/3/2023, 16:51:41],"pid":14120,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14120 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:41],"pid":15444,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15444 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:41],"pid":15424,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15424 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:41],"pid":2304,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2304 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:41],"pid":15920,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15920 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:41],"pid":9140,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9140 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:41],"pid":7672,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7672 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:41],"pid":680,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 680 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:57],"pid":6396,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:51:57],"pid":6396,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 6396"}
+{"level":"info"[5/3/2023, 16:51:59],"pid":9888,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9888 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:59],"pid":9772,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9772 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:59],"pid":8484,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8484 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:59],"pid":2328,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2328 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:59],"pid":9620,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9620 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:59],"pid":15692,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15692 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:59],"pid":15136,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15136 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:51:59],"pid":8820,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8820 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:55:02],"pid":6396,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15136)"}
+{"level":"info"[5/3/2023, 16:55:03],"pid":16096,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:55:03],"pid":16096,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 16096"}
+{"level":"info"[5/3/2023, 16:55:06],"pid":15816,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15816 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:55:06],"pid":7128,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7128 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:55:06],"pid":13112,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13112 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:55:06],"pid":3460,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3460 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:55:06],"pid":13376,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13376 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:55:06],"pid":7728,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7728 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:55:06],"pid":11076,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11076 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:55:06],"pid":4248,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4248 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:56:41],"pid":5520,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:56:41],"pid":5520,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 5520"}
+{"level":"info"[5/3/2023, 16:56:44],"pid":14608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14608 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:56:44],"pid":14860,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14860 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:56:44],"pid":16176,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16176 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:56:44],"pid":2708,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2708 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:56:44],"pid":14484,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14484 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:56:44],"pid":960,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 960 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:56:44],"pid":10332,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10332 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:56:44],"pid":9916,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9916 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:26],"pid":11412,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:57:26],"pid":11412,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 11412"}
+{"level":"info"[5/3/2023, 16:57:28],"pid":6076,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6076 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:28],"pid":8484,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8484 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:28],"pid":9280,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9280 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:28],"pid":9532,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9532 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:28],"pid":10924,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10924 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:28],"pid":3516,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3516 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:28],"pid":2328,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2328 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:28],"pid":11712,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11712 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:54],"pid":15764,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:57:54],"pid":15764,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 15764"}
+{"level":"info"[5/3/2023, 16:57:56],"pid":13980,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13980 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:56],"pid":4856,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4856 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:57],"pid":10480,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10480 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:57],"pid":4632,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4632 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:57],"pid":10396,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10396 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:57],"pid":4268,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4268 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:57],"pid":7996,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7996 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:57:57],"pid":6280,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6280 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:58:21],"pid":15764,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13980)"}
+{"level":"info"[5/3/2023, 16:58:22],"pid":13112,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[5/3/2023, 16:58:22],"pid":13112,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 13112"}
+{"level":"info"[5/3/2023, 16:58:25],"pid":7588,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7588 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:58:25],"pid":804,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 804 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:58:25],"pid":6856,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6856 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:58:25],"pid":15388,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15388 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:58:25],"pid":11812,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11812 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:58:25],"pid":9920,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9920 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:58:25],"pid":11444,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11444 conectado al puerto 8080 "}
+{"level":"info"[5/3/2023, 16:58:25],"pid":13424,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13424 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:19],"pid":13608,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:37:19],"pid":13608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 13608"}
+{"level":"info"[6/3/2023, 13:37:22],"pid":12980,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12980 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:22],"pid":1440,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1440 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:22],"pid":15420,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15420 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:22],"pid":12780,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12780 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:22],"pid":7184,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7184 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:22],"pid":8144,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8144 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:22],"pid":14520,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14520 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:23],"pid":10756,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10756 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:44],"pid":10600,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:37:44],"pid":10600,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 10600"}
+{"level":"info"[6/3/2023, 13:37:47],"pid":10512,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10512 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:47],"pid":6384,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6384 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:47],"pid":7500,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7500 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:47],"pid":8396,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8396 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:47],"pid":11004,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11004 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:47],"pid":5944,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5944 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:47],"pid":3696,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3696 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:37:47],"pid":8780,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8780 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:38:28],"pid":10600,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 5944)"}
+{"level":"info"[6/3/2023, 13:38:30],"pid":3948,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:38:30],"pid":3948,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 3948"}
+{"level":"info"[6/3/2023, 13:38:33],"pid":15312,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15312 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:38:33],"pid":11276,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11276 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:38:33],"pid":7556,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7556 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:38:33],"pid":1392,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1392 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:38:33],"pid":10084,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10084 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:38:33],"pid":4396,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4396 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:38:33],"pid":1748,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1748 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:38:33],"pid":7128,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7128 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:33],"pid":3948,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11276)"}
+{"level":"info"[6/3/2023, 13:43:35],"pid":4504,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:43:35],"pid":4504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4504"}
+{"level":"info"[6/3/2023, 13:43:37],"pid":15616,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15616 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:37],"pid":11568,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11568 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:37],"pid":15548,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15548 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:37],"pid":14152,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14152 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:37],"pid":956,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 956 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:37],"pid":5680,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5680 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:37],"pid":11500,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11500 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:38],"pid":4220,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4220 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:50],"pid":1624,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:43:50],"pid":1624,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 1624"}
+{"level":"info"[6/3/2023, 13:43:52],"pid":11384,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11384 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:53],"pid":8556,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8556 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:53],"pid":9924,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9924 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:53],"pid":12352,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12352 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:53],"pid":10420,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10420 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:53],"pid":6704,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6704 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:53],"pid":7504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7504 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:43:53],"pid":3096,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3096 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:35],"pid":1624,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8556)"}
+{"level":"info"[6/3/2023, 13:44:36],"pid":4044,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:44:36],"pid":4044,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4044"}
+{"level":"info"[6/3/2023, 13:44:39],"pid":13564,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13564 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:39],"pid":16220,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16220 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:39],"pid":9604,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9604 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:39],"pid":6060,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6060 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:39],"pid":9500,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9500 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:39],"pid":1448,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1448 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:39],"pid":15912,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15912 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:39],"pid":7100,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7100 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:44:57],"pid":4044,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 1448)"}
+{"level":"info"[6/3/2023, 13:44:59],"pid":14324,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:44:59],"pid":14324,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 14324"}
+{"level":"info"[6/3/2023, 13:45:01],"pid":10824,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10824 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:45:01],"pid":11656,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11656 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:45:01],"pid":8144,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8144 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:45:01],"pid":15676,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15676 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:45:01],"pid":16060,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16060 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:45:01],"pid":9584,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9584 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:45:01],"pid":11792,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11792 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:45:01],"pid":12872,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12872 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:47:08],"pid":15560,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:47:08],"pid":15560,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 15560"}
+{"level":"info"[6/3/2023, 13:47:11],"pid":7056,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7056 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:47:11],"pid":3952,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3952 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:47:11],"pid":12072,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12072 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:47:11],"pid":17024,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 17024 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:47:11],"pid":16372,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16372 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:47:11],"pid":12132,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12132 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:47:11],"pid":16340,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16340 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:47:11],"pid":6300,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6300 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:48:24],"pid":4088,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 13:48:24],"pid":4088,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4088"}
+{"level":"info"[6/3/2023, 13:48:26],"pid":15084,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15084 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:48:26],"pid":11036,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11036 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:48:27],"pid":15808,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15808 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:48:27],"pid":12344,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12344 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:48:27],"pid":16196,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16196 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:48:27],"pid":7996,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7996 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:48:27],"pid":1448,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1448 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 13:48:27],"pid":13188,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13188 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 16:30:42],"pid":584,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[6/3/2023, 16:30:42],"pid":584,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 584"}
+{"level":"info"[6/3/2023, 16:30:45],"pid":4540,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4540 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 16:30:45],"pid":12960,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12960 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 16:30:45],"pid":6536,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6536 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 16:30:45],"pid":9352,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9352 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 16:30:45],"pid":15296,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15296 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 16:30:45],"pid":4788,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4788 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 16:30:45],"pid":8568,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8568 conectado al puerto 8080 "}
+{"level":"info"[6/3/2023, 16:30:45],"pid":6372,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6372 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:17],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"modo de ejecucion: CLUSTER"}
+{"level":"info"[8/3/2023, 15:14:17],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"proceso primario: pid 4172"}
+{"level":"info"[8/3/2023, 15:14:20],"pid":5768,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5768 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":13036,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13036 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":7424,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7424 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":6632,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6632 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":16372,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16372 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":544,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 544 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":10584,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10584 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":8696,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8696 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":5768,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":5768,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":13036,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:20],"pid":13036,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:21],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 6632)"}
+{"level":"info"[8/3/2023, 15:14:21],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8696)"}
+{"level":"info"[8/3/2023, 15:14:21],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16372)"}
+{"level":"info"[8/3/2023, 15:14:21],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13036)"}
+{"level":"info"[8/3/2023, 15:14:21],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 544)"}
+{"level":"info"[8/3/2023, 15:14:21],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10584)"}
+{"level":"info"[8/3/2023, 15:14:21],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 5768)"}
+{"level":"info"[8/3/2023, 15:14:21],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7424)"}
+{"level":"info"[8/3/2023, 15:14:23],"pid":10692,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10692 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:23],"pid":2228,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2228 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:23],"pid":15504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15504 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:23],"pid":11468,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11468 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:23],"pid":2380,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2380 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:23],"pid":3624,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3624 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:23],"pid":11736,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11736 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:23],"pid":10120,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10120 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:24],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10692)"}
+{"level":"info"[8/3/2023, 15:14:24],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3624)"}
+{"level":"info"[8/3/2023, 15:14:24],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15504)"}
+{"level":"info"[8/3/2023, 15:14:24],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2380)"}
+{"level":"info"[8/3/2023, 15:14:24],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11468)"}
+{"level":"info"[8/3/2023, 15:14:24],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2228)"}
+{"level":"info"[8/3/2023, 15:14:24],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11736)"}
+{"level":"info"[8/3/2023, 15:14:24],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10120)"}
+{"level":"info"[8/3/2023, 15:14:27],"pid":16832,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16832 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":10364,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10364 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":16832,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":980,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 980 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":16832,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":16832,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":16832,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":11476,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11476 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":10196,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10196 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":16784,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16784 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":11180,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11180 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":16300,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16300 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:27],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10364)"}
+{"level":"info"[8/3/2023, 15:14:27],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16832)"}
+{"level":"info"[8/3/2023, 15:14:27],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 980)"}
+{"level":"info"[8/3/2023, 15:14:27],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10196)"}
+{"level":"info"[8/3/2023, 15:14:27],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16784)"}
+{"level":"info"[8/3/2023, 15:14:27],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11476)"}
+{"level":"info"[8/3/2023, 15:14:28],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16300)"}
+{"level":"info"[8/3/2023, 15:14:28],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11180)"}
+{"level":"info"[8/3/2023, 15:14:30],"pid":15000,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15000 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:30],"pid":15688,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15688 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:30],"pid":3492,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3492 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:30],"pid":2176,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2176 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:30],"pid":11520,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11520 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:30],"pid":3884,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3884 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:30],"pid":676,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 676 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:30],"pid":17040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 17040 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:31],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15000)"}
+{"level":"info"[8/3/2023, 15:14:31],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15688)"}
+{"level":"info"[8/3/2023, 15:14:31],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3492)"}
+{"level":"info"[8/3/2023, 15:14:31],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11520)"}
+{"level":"info"[8/3/2023, 15:14:31],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3884)"}
+{"level":"info"[8/3/2023, 15:14:31],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 676)"}
+{"level":"info"[8/3/2023, 15:14:31],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2176)"}
+{"level":"info"[8/3/2023, 15:14:31],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 17040)"}
+{"level":"info"[8/3/2023, 15:14:33],"pid":8216,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8216 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:33],"pid":15776,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15776 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:33],"pid":3648,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3648 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:33],"pid":13672,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13672 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:33],"pid":2884,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2884 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:34],"pid":11892,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11892 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:34],"pid":3508,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3508 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:34],"pid":8216,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:34],"pid":8216,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:34],"pid":8216,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:34],"pid":8700,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8700 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:34],"pid":3648,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:34],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15776)"}
+{"level":"info"[8/3/2023, 15:14:34],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8216)"}
+{"level":"info"[8/3/2023, 15:14:34],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2884)"}
+{"level":"info"[8/3/2023, 15:14:34],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3648)"}
+{"level":"info"[8/3/2023, 15:14:34],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3508)"}
+{"level":"info"[8/3/2023, 15:14:34],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8700)"}
+{"level":"info"[8/3/2023, 15:14:34],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13672)"}
+{"level":"info"[8/3/2023, 15:14:34],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11892)"}
+{"level":"info"[8/3/2023, 15:14:37],"pid":12108,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12108 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:38],"pid":12228,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12228 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:38],"pid":13260,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13260 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:38],"pid":12704,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12704 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:38],"pid":6920,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6920 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:38],"pid":14636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14636 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:38],"pid":10520,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10520 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:38],"pid":11896,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11896 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:38],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12228)"}
+{"level":"info"[8/3/2023, 15:14:38],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13260)"}
+{"level":"info"[8/3/2023, 15:14:38],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12108)"}
+{"level":"info"[8/3/2023, 15:14:38],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10520)"}
+{"level":"info"[8/3/2023, 15:14:38],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 6920)"}
+{"level":"info"[8/3/2023, 15:14:39],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12704)"}
+{"level":"info"[8/3/2023, 15:14:39],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11896)"}
+{"level":"info"[8/3/2023, 15:14:39],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14636)"}
+{"level":"info"[8/3/2023, 15:14:41],"pid":3532,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3532 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:41],"pid":9920,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9920 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:41],"pid":9848,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9848 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:41],"pid":14780,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14780 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:41],"pid":3532,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:41],"pid":15724,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15724 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:41],"pid":3532,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:41],"pid":3436,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3436 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:41],"pid":11788,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11788 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:42],"pid":17300,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 17300 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:42],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3532)"}
+{"level":"info"[8/3/2023, 15:14:42],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9848)"}
+{"level":"info"[8/3/2023, 15:14:42],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14780)"}
+{"level":"info"[8/3/2023, 15:14:42],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9920)"}
+{"level":"info"[8/3/2023, 15:14:42],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 17300)"}
+{"level":"info"[8/3/2023, 15:14:42],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15724)"}
+{"level":"info"[8/3/2023, 15:14:42],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3436)"}
+{"level":"info"[8/3/2023, 15:14:42],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11788)"}
+{"level":"info"[8/3/2023, 15:14:45],"pid":3296,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3296 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:45],"pid":11696,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11696 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:45],"pid":12040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12040 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:45],"pid":16524,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16524 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:45],"pid":3556,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3556 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:45],"pid":7536,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7536 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:45],"pid":14356,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14356 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:45],"pid":608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 608 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:45],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3296)"}
+{"level":"info"[8/3/2023, 15:14:45],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12040)"}
+{"level":"info"[8/3/2023, 15:14:46],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11696)"}
+{"level":"info"[8/3/2023, 15:14:46],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16524)"}
+{"level":"info"[8/3/2023, 15:14:46],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7536)"}
+{"level":"info"[8/3/2023, 15:14:46],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3556)"}
+{"level":"info"[8/3/2023, 15:14:46],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14356)"}
+{"level":"info"[8/3/2023, 15:14:46],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 608)"}
+{"level":"info"[8/3/2023, 15:14:48],"pid":7140,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7140 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:48],"pid":7140,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:48],"pid":12948,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12948 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:48],"pid":7140,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:48],"pid":10292,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10292 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:48],"pid":7364,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7364 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:48],"pid":11976,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11976 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:48],"pid":11420,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11420 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:48],"pid":8960,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8960 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:49],"pid":12112,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12112 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:49],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7140)"}
+{"level":"info"[8/3/2023, 15:14:49],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12948)"}
+{"level":"info"[8/3/2023, 15:14:49],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7364)"}
+{"level":"info"[8/3/2023, 15:14:49],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10292)"}
+{"level":"info"[8/3/2023, 15:14:49],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11976)"}
+{"level":"info"[8/3/2023, 15:14:49],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11420)"}
+{"level":"info"[8/3/2023, 15:14:49],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8960)"}
+{"level":"info"[8/3/2023, 15:14:49],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12112)"}
+{"level":"info"[8/3/2023, 15:14:51],"pid":14420,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14420 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:52],"pid":2464,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2464 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:52],"pid":16784,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16784 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:52],"pid":2972,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2972 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:52],"pid":16636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16636 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:52],"pid":13648,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13648 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:52],"pid":12624,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12624 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:52],"pid":11340,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11340 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:52],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14420)"}
+{"level":"info"[8/3/2023, 15:14:52],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2464)"}
+{"level":"info"[8/3/2023, 15:14:52],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2972)"}
+{"level":"info"[8/3/2023, 15:14:52],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16784)"}
+{"level":"info"[8/3/2023, 15:14:52],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16636)"}
+{"level":"info"[8/3/2023, 15:14:53],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13648)"}
+{"level":"info"[8/3/2023, 15:14:53],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12624)"}
+{"level":"info"[8/3/2023, 15:14:53],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11340)"}
+{"level":"info"[8/3/2023, 15:14:55],"pid":928,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 928 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":928,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":928,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":8280,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8280 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":17040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 17040 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":15708,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15708 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":5568,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5568 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":16576,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16576 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":7924,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7924 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:55],"pid":2436,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2436 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:56],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8280)"}
+{"level":"info"[8/3/2023, 15:14:56],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 928)"}
+{"level":"info"[8/3/2023, 15:14:56],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 17040)"}
+{"level":"info"[8/3/2023, 15:14:56],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15708)"}
+{"level":"info"[8/3/2023, 15:14:56],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 5568)"}
+{"level":"info"[8/3/2023, 15:14:56],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7924)"}
+{"level":"info"[8/3/2023, 15:14:56],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2436)"}
+{"level":"info"[8/3/2023, 15:14:56],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16576)"}
+{"level":"info"[8/3/2023, 15:14:59],"pid":9004,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9004 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:59],"pid":15152,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15152 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:59],"pid":14304,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14304 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:59],"pid":12540,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12540 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:59],"pid":10136,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10136 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:59],"pid":16064,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16064 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:59],"pid":9504,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9504 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:59],"pid":10740,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10740 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:14:59],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15152)"}
+{"level":"info"[8/3/2023, 15:14:59],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9004)"}
+{"level":"info"[8/3/2023, 15:15:00],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14304)"}
+{"level":"info"[8/3/2023, 15:15:00],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16064)"}
+{"level":"info"[8/3/2023, 15:15:00],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10136)"}
+{"level":"info"[8/3/2023, 15:15:00],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12540)"}
+{"level":"info"[8/3/2023, 15:15:00],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9504)"}
+{"level":"info"[8/3/2023, 15:15:00],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10740)"}
+{"level":"info"[8/3/2023, 15:15:02],"pid":11412,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11412 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:02],"pid":4396,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4396 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:02],"pid":11412,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:15:02],"pid":11412,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:15:03],"pid":5980,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5980 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:03],"pid":6512,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6512 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:03],"pid":15260,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15260 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:03],"pid":5552,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 5552 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:03],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 4396)"}
+{"level":"info"[8/3/2023, 15:15:03],"pid":14616,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14616 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:03],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11412)"}
+{"level":"info"[8/3/2023, 15:15:03],"pid":6012,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6012 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:04],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15260)"}
+{"level":"info"[8/3/2023, 15:15:04],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 5552)"}
+{"level":"info"[8/3/2023, 15:15:04],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 6512)"}
+{"level":"info"[8/3/2023, 15:15:04],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 5980)"}
+{"level":"info"[8/3/2023, 15:15:04],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14616)"}
+{"level":"info"[8/3/2023, 15:15:04],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 6012)"}
+{"level":"info"[8/3/2023, 15:15:05],"pid":12228,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12228 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:05],"pid":12704,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12704 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:06],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12704)"}
+{"level":"info"[8/3/2023, 15:15:06],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12228)"}
+{"level":"info"[8/3/2023, 15:15:06],"pid":9292,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9292 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:06],"pid":7220,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7220 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:06],"pid":6860,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6860 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:06],"pid":11636,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11636 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:06],"pid":13036,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13036 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:06],"pid":14272,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14272 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:07],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9292)"}
+{"level":"info"[8/3/2023, 15:15:07],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11636)"}
+{"level":"info"[8/3/2023, 15:15:07],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7220)"}
+{"level":"info"[8/3/2023, 15:15:07],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13036)"}
+{"level":"info"[8/3/2023, 15:15:07],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14272)"}
+{"level":"info"[8/3/2023, 15:15:07],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 6860)"}
+{"level":"info"[8/3/2023, 15:15:08],"pid":10052,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10052 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:08],"pid":15800,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15800 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:08],"pid":10052,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:15:08],"pid":15800,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:15:09],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10052)"}
+{"level":"info"[8/3/2023, 15:15:09],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15800)"}
+{"level":"info"[8/3/2023, 15:15:10],"pid":1148,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 1148 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:10],"pid":4620,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4620 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:10],"pid":7152,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7152 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:10],"pid":3932,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3932 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:10],"pid":13340,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13340 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:10],"pid":14780,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14780 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:11],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 4620)"}
+{"level":"info"[8/3/2023, 15:15:11],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 1148)"}
+{"level":"info"[8/3/2023, 15:15:11],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7152)"}
+{"level":"info"[8/3/2023, 15:15:11],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3932)"}
+{"level":"info"[8/3/2023, 15:15:11],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13340)"}
+{"level":"info"[8/3/2023, 15:15:11],"pid":10356,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 10356 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:11],"pid":7404,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7404 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:11],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14780)"}
+{"level":"info"[8/3/2023, 15:15:12],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 10356)"}
+{"level":"info"[8/3/2023, 15:15:12],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7404)"}
+{"level":"info"[8/3/2023, 15:15:13],"pid":4220,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 4220 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":11184,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 11184 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":608,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 608 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":9432,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9432 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":3556,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3556 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":2296,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2296 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":4220,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":11184,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 4220)"}
+{"level":"info"[8/3/2023, 15:15:14],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 11184)"}
+{"level":"info"[8/3/2023, 15:15:14],"pid":14204,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14204 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:14],"pid":14184,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14184 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:15],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 608)"}
+{"level":"info"[8/3/2023, 15:15:15],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2296)"}
+{"level":"info"[8/3/2023, 15:15:15],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9432)"}
+{"level":"info"[8/3/2023, 15:15:15],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3556)"}
+{"level":"info"[8/3/2023, 15:15:15],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14184)"}
+{"level":"info"[8/3/2023, 15:15:15],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14204)"}
+{"level":"info"[8/3/2023, 15:15:17],"pid":17136,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 17136 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:17],"pid":6956,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 6956 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:17],"pid":16904,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16904 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:18],"pid":12400,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12400 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:18],"pid":7364,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7364 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:18],"pid":13136,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 13136 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:18],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 17136)"}
+{"level":"info"[8/3/2023, 15:15:18],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 6956)"}
+{"level":"info"[8/3/2023, 15:15:18],"pid":3468,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 3468 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:18],"pid":14220,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14220 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:18],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16904)"}
+{"level":"info"[8/3/2023, 15:15:18],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12400)"}
+{"level":"info"[8/3/2023, 15:15:18],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7364)"}
+{"level":"info"[8/3/2023, 15:15:18],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 13136)"}
+{"level":"info"[8/3/2023, 15:15:19],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 3468)"}
+{"level":"info"[8/3/2023, 15:15:19],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14220)"}
+{"level":"info"[8/3/2023, 15:15:21],"pid":2764,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 2764 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:21],"pid":16784,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16784 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":8880,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8880 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":2764,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":2764,"hostname":"DESKTOP-FRVMOR8","msg":"Wrong route: "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":7104,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7104 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":15052,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 15052 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":14388,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 14388 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":7828,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 7828 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":16476,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16476 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:22],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 2764)"}
+{"level":"info"[8/3/2023, 15:15:22],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16784)"}
+{"level":"info"[8/3/2023, 15:15:22],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8880)"}
+{"level":"info"[8/3/2023, 15:15:22],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7104)"}
+{"level":"info"[8/3/2023, 15:15:23],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 15052)"}
+{"level":"info"[8/3/2023, 15:15:23],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 14388)"}
+{"level":"info"[8/3/2023, 15:15:23],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 7828)"}
+{"level":"info"[8/3/2023, 15:15:23],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16476)"}
+{"level":"info"[8/3/2023, 15:15:25],"pid":284,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 284 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:25],"pid":12116,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 12116 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:25],"pid":9600,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9600 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:26],"pid":16416,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16416 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:26],"pid":16040,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 16040 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:26],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 284)"}
+{"level":"info"[8/3/2023, 15:15:26],"pid":8108,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 8108 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:26],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 12116)"}
+{"level":"info"[8/3/2023, 15:15:26],"pid":9480,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 9480 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:26],"pid":17176,"hostname":"DESKTOP-FRVMOR8","msg":"proceso secundario: pid 17176 conectado al puerto 8080 "}
+{"level":"info"[8/3/2023, 15:15:26],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 9600)"}
+{"level":"info"[8/3/2023, 15:15:26],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16416)"}
+{"level":"info"[8/3/2023, 15:15:26],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 16040)"}
+{"level":"info"[8/3/2023, 15:15:27],"pid":4172,"hostname":"DESKTOP-FRVMOR8","msg":"adios mundo cruel (pid: 8108)"}

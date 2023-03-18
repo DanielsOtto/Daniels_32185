@@ -1,7 +1,7 @@
 // hay que armar el modelo de usuario
 import { randomUUID } from 'crypto';
 
-import { chosenUsersContainers as users } from "../dao/DataContainer.js";
+import { chosenUsersContainers as users } from "../dataAccess/DataContainer.js";
 import { encryptPassword } from "../utils/hashPass.js";
 import { createCart } from './cartModel.js';
 import { logger } from "../log/pino.js";
@@ -25,8 +25,8 @@ export async function createAccount(body) {
 // buscar por email
 export async function findByEmail(email) {
   try {
-    const user = await users.getByEmail(email);
-    return user;
+    return await users.getByEmail(email);
+
   } catch (err) {
     logger.error(err);
     throw new Error(err.message);

@@ -1,5 +1,5 @@
 import { saveProds, updateProdsById, deleteOne } from "../models/productsModel.js";
-import { chosenProdsContainer } from "../dao/DataContainer.js";
+import { chosenProdsContainer } from "../dataAccess/DataContainer.js";
 import { logger } from "../log/pino.js";
 
 
@@ -13,7 +13,7 @@ async function getAllProducts(req, res) {
     res.status(200).json(await chosenProdsContainer.getAll());
   } catch (err) {
     logger.error(err.message);
-    throw err;
+    throw err.message;
   }
 }
 
@@ -29,7 +29,7 @@ async function getByIdProducts({ params }, res) {
     }
   } catch (err) {
     logger.error(err.message);
-    throw err;
+    throw err.message;
   }
 }
 
@@ -42,18 +42,18 @@ async function saveProduct({ body }, res) {
     res.status(201).json(result);
   } catch (err) {
     logger.error(err.message);
-    throw err;
+    throw err.message;
   }
 }
 
 async function updateById({ body, params }, res) {
   try {
     const object = body;
-    await updateProdsById(params.id, object)
+    await updateProdsById(params.id, object);
     res.status(200).json(object);
   } catch (err) {
     logger.error(err.message);
-    throw new Error('Error al actualizar por id');
+    throw new Error(err.message);
   }
 }
 
