@@ -1,17 +1,14 @@
-import { randomUUID } from 'crypto';
 import { logger } from '../../config/pino.js';
-// utiliza al repositorio
+import { Product } from '../../models/Products.js';
 import { productsList } from '../../repositories/productsList/index.js';
-// import { Product } from '../../models/Products.js';
 // ACA DEBE ESTAR LA LOGICA DE LOS CONTROLADORES
-
 
 export class ProductsService {
 
   async save(object) {
-    object.id = randomUUID(); // NO SE HACE ACA !!
+    const product = new Product(object)
     try {
-      await productsList.save(object);// guarda objeto
+      await productsList.save(product);// guarda objeto
       return object;
     } catch (err) {
       logger.error(err);
@@ -38,9 +35,19 @@ export class ProductsService {
   }
 
   async updateById(id, object) {
-    object.id = id;
-    try {// object es privado, necesitamos mandar datos()
-      await productsList.updateById(id, object);
+    const product = new Product(object);
+    product.id = id;
+    try {
+      await productsList.updateById(product);
+    } catch (err) {
+      logger.error(err);
+      throw err;
+    }
+  }
+
+  async deleteById(id) {
+    try {
+      await productsList.deleteById(id);
     } catch (err) {
       logger.error(err);
       throw err;
@@ -55,36 +62,4 @@ export class ProductsService {
       throw err;
     }
   }
-  async deleteById(id) {
-    try {
-      await productsList.deleteById(id);
-    } catch (err) {
-      logger.error(err);
-      throw err;
-    }
-  }
 }
-
-
-
-// no van mas estos metodos
-export async function putProducts(item) {
-  item.id = randomUUID();
-  try {
-    await productsList.save(item);
-    return item;
-  } catch (err) {
-    logger.error(err);
-    throw err;
-  }
-}
-
-export async function getAllProducts() {
-  try {
-    return await productsList.getAll();
-  } catch (err) {
-    logger.error(err);
-    throw err;
-  }
-}
-

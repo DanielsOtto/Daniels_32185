@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="card-header">
+        <h2 class="text-uppercase card-tittle text-center">wellcome <strong
+                class="text-capitalize text-success ">{{user.name}}</strong>
+        </h2>
+    </div>
+    <div class="card-body">
+        <h6 class="text-uppercase"><strong>your data:</strong> </h6>
+        <ul class="list-group list-group-flush mt-5">
+            <p class="text-uppercase text-secondary">name</p>
+            <li class="list-group-item mb-3">{{user.name}}</li>
+            <p class="text-uppercase text-secondary">email</p>
+            <li class="list-group-item mb-3">{{user.email}}</li>
+            <p class="text-uppercase text-secondary">password</p>
+            <li class="list-group-item mb-3">{{user.password}}</li>
+            <p class="text-uppercase text-secondary">id</p>
+            <li class="list-group-item mb-3">{{user._id}}</li>
+        </ul>
+    </div>
+</div>
