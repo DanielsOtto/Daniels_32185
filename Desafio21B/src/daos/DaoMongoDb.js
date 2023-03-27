@@ -1,4 +1,8 @@
 import { logger } from '../config/pino.js';
+import { InvalidArgument } from '../errors/InvalidArgumentError.js';
+import { IdNotFoundError } from '../errors/IdNotFoundError.js';
+import { OutOfStockError } from '../errors/OutOfStockError.js'; // aca no
+import { EmptyCollection } from '../errors/EmptyCollection.js';
 // DESAFIO 20
 
 // ESTE ARCHIVO SE USA EN repositorios/productsList/index.js
@@ -27,7 +31,7 @@ export class DaoMongoDb { // sin default. no se bien xq
   async getAll() {
     try {
       const dtos = await this.#collection.find().toArray();
-      if (!dtos) throw new Error('The collection is empty.');
+      if (!dtos) throw new EmptyCollection(dtos);
       return dtos;
     } catch (err) {
       logger.error(err);
@@ -38,7 +42,7 @@ export class DaoMongoDb { // sin default. no se bien xq
   async getById(id) {
     try {
       const dto = await this.#collection.findOne({ id: id });
-      if (!dto) throw new Error('Product not found.');
+      if (!dto) throw new IdNotFoundError(id);
       return dto;
     } catch (err) {
       logger.error(err);
@@ -48,13 +52,10 @@ export class DaoMongoDb { // sin default. no se bien xq
 
   async updateById(id, dto) {
     try {
-      console.log(dto);
-      // const result = await this.#collection.replaceOne({ id }, dtoUpdate);
 
-      // traer  el objeto completo  campos nuevos + objeto original
       const result = await this.#collection.replaceOne({ id }, dto);
       if (!result.acknowledged) throw new Error('Error updating product.');
-      if (result.matchedCount === 0) throw new Error('Product not found.');
+      if (result.matchedCount === 0) throw new IdNotFoundError(id);
       if (result.modifiedCount === 0) throw new Error('The product was not modified.');
     } catch (err) {
       logger.error(err.message);

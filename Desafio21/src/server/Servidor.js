@@ -5,22 +5,17 @@ import MongoStore from 'connect-mongo'; // para las sessions
 import { engine } from 'express-handlebars';
 import { MONGO_CNS } from '../config/config.js';
 
-// import { msgContainer } from './containers/MessagesContainer.js';
 import { messagesContainer } from '../daos/DataContainer.js'; // PERSISTENCIA
 import { createMessagesTable } from '../dataAccess/tables/createMessagesTable.js';
 import { nameMsgTable } from '../config/config.js';
 import { randomUUID } from 'crypto';
 import morgan from 'morgan'; // opcional
-import session from 'express-session';
-import { logger } from '../config/pino.js';
-
-import flash from 'connect-flash';
 import passport from 'passport';
+import flash from 'connect-flash';
+import session from 'express-session';
 import passport_config from '../config/passport-local.js';
 
-passport_config();
-
-
+import { logger } from '../config/pino.js';
 import routerUser from '../routers/users.router.js';
 import routerTasks from '../routers/tasks.routers.js';
 import routerProducts from '../routers/products.routers.js';
@@ -28,7 +23,7 @@ import routerMenu from '../routers/menu.routers.js';
 import { routerApiProds } from '../routers/routerApiProducts.js';
 
 const mongoUrl = MONGO_CNS; // string correcta para conectarse a mongo atlas
-
+passport_config();
 
 export class Servidor {
   #app;
@@ -79,13 +74,10 @@ export class Servidor {
           const arrayMsgs = await messagesContainer.getAll(); // obtengo todos los mensajes
           this.#io.sockets.emit('show messages', arrayMsgs);
         } catch (err) {
-          // throw new Error('Error al conectar con los sockets newMessage');
           this.#io.sockets.emit('ERROR')
         }
       });
     })
-
-
 
     //RUTAS
     this.#app.use('/', routerProducts);
